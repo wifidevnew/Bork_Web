@@ -12,7 +12,7 @@
     0% { opacity: 0; } 
     100% { opacity: 1; } 
   }
-  
+
   @keyframes moveLeftToPosition {
     0% {
       transform: translateX(-100%);
@@ -38,5 +38,3 @@
   .animate-clouda {
     animation: moveRightToPosition ease 3s forwards;
   }
-  
-  

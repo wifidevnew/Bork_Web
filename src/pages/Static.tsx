@@ -1,6 +1,7 @@
 import NavbarGlobal from "../components/Navbar";
 import SectionA from "../components/SectionA";
 import SectionB from "../components/SectionB";
+import SectionC from "../components/SectionC";
 
 const Static = () => {
   return (
@@ -9,6 +10,7 @@ const Static = () => {
       <div>
         <SectionA/>
         <SectionB/>
+        <SectionC/>
       </div>
     </div>
   );
