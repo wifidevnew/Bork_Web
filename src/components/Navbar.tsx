@@ -23,7 +23,7 @@ function NavbarGlobal() {
             </Navbar.Brand>
           </div>
           <div>
-            <Nav className="flex items-center gap-16 text-lg me-[10rem]">
+            <Nav className="flex items-center gap-24 text-2xl me-[10rem]">
               <Nav.Link
                 className="text-white hover:scale-110 transition-transform duration-300"
                 href="#home"
