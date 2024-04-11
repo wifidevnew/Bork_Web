@@ -34,20 +34,9 @@
       transform: translateX(0);
     }
   }
-  @keyframes moveLeftRight {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(-10px);
-    }
-    100% {
-      transform: translateX(10px);
-    }
-  }
   
   .animate-clouda {
-    animation: moveRightToPosition ease 3s forwards, moveLeftRight linear 4s infinite;
+    animation: moveRightToPosition ease 3s forwards,;
   }
   
   
