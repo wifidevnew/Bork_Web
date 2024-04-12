@@ -39,6 +39,7 @@ const SectionC = () => {
         <div className="fade-in">
           <img src={dog} alt="Logo" width="120" height="120" className="" />
         </div>
+     
       </div>
     </div>
   );
