@@ -15,10 +15,10 @@ const SectionA = () => {
         <div className="mt-16">
           <div className="relative xl:ms-[5rem] animate-spin-slow justify-center ms-[2rem]">
             <svg
-              width="400"
-              height="400"
+             
               viewBox="0 0 300 300"
               xmlns="http://www.w3.org/2000/svg"
+              className="w-80 h-auto"
             >
               <style>
                 {`
@@ -45,15 +45,15 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute flex xl:top-[28rem] xl:mb-10 top-[25rem]">
+          <div className="absolute flex xl:top-[28rem] xl:mb-10 top-[22rem]">
             <img src={logo} alt="Logo" width="550" height="550" className="" />
           </div>
-          <div className="relative flex xl:mt-12 xl:ms-14 ms-12 mt-12">
+          <div className="relative flex xl:mt-12 xl:ms-14 ms-7 mt-12">
             <img src={text} alt="Logo" width="400" height="400" className="" />
           </div>
         </div>
-        <div className="flex flex-row gap-20 xl:ms-16 xl:mt-7 items-center ms-12">
-          <Nav className="items-center gap-12">
+        <div className="flex flex-row gap-4 xl:ms-16 xl:mt-7 items-center ms-12">
+          <Nav className="items-center gap-4">
             <div className=" flex">
               <Nav.Link>
                 <img
@@ -81,9 +81,7 @@ const SectionA = () => {
                 <img
                   src={buy}
                   alt="Logo"
-                  width="120"
-                  height="120"
-                  className="hover:scale-110 transition-transform duration-300"
+                  className="hover:scale-110 transition-transform duration-300 w-20 h-auto"
                 />
               </Nav.Link>
             </div>
@@ -94,12 +92,11 @@ const SectionA = () => {
         <div className="xl:w-[41rem] xl:h-[41rem]">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
-        <div className="absolute xl:top-[40rem] xl:right-[14rem] top-[42rem] right-[1rem]">
+        <div className="absolute xl:top-[40rem] xl:right-[14rem] top-[39rem] right-[1rem]">
           <svg
-            width="140"
-            height="140"
             viewBox="0 0 300 300"
             xmlns="http://www.w3.org/2000/svg"
+            className="w-20 h-auto"
           >
             <style>
               {`

@@ -5,7 +5,7 @@ import "../style/SectionB.css"
 
 const SectionB = () => {
   return (
-    <div className="mt-20 justify-center flex">
+    <div className="xl:mt-20 justify-center flex">
       <div>
         <div className="flex justify-center items-center relative">
           <div className="absolute fade-in">
@@ -25,11 +25,11 @@ const SectionB = () => {
               className=""
             />
           </div>
-          <div className="absolute top-[10rem] xl:top-[20rem] xl:-left-[1px]  transform -translate-x-1/2 animate-cloud" style={{ zIndex: '-1' }}>
+          <div className="absolute top-[8rem] xl:top-[20rem] xl:-left-[1px]  transform -translate-x-1/2 animate-cloud" style={{ zIndex: '-1' }}>
             <img
               src={cloud}
               alt="Logo"
-              className="transform -scale-x-100 z-50 w-36  h-auto"
+              className="transform -scale-x-100 z-50 w-28  h-auto"
             />
           </div>
         </div>
