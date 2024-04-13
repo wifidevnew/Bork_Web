@@ -1,11 +1,11 @@
-import bowl from "../assets/bowl.png";
+import bowl from "../assets/bowl.png"
 import "../style/SectionD.css"
 const SectionD = () => {
   return (
-    <div className="flex justify-center gap-16 mt-[7rem]">
-      <div className="w-[13%] rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer">
+    <div className="xl:flex justify-center xl:gap-16 mt-[7rem] w-full items-center">
+      <div className="p-5 xl:w-[18%]  mb-10 ms-10rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer items-center">
         <div className="px-6 py-2">
-          <div className="font-bold text-xl text-center">Token</div>
+          <div className="font-bold text-lg text-center">Token</div>
         </div>
         <div className="flex justify-center items-center mb-3">
           <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -23,9 +23,9 @@ const SectionD = () => {
           <span>Uniswap V3</span>
         </p>
       </div>
-      <div className="w-[13%] rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer">
+      <div className="p-5 xl:w-[22%]  mb-10 rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer">
         <div className="px-6 py-2">
-          <div className="font-bold text-xl text-center ">Trust</div>
+          <div className="font-bold text-lg text-center ">Trust</div>
         </div>
         <div className="flex justify-center items-center mb-3">
           <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -42,9 +42,9 @@ const SectionD = () => {
           <span>Devation to the meme</span>
         </p>
       </div>
-      <div className="w-[13%] rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer">
+      <div className="p-5 xl:w-[18%]  rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer">
         <div className="px-6 py-2">
-          <div className="font-bold text-xl text-center ">Security</div>
+          <div className="font-bold text-lg text-center ">Security</div>
         </div>
         <div className="flex justify-center items-center mb-3">
           <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -60,7 +60,7 @@ const SectionD = () => {
         </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SectionD;
+export default SectionD

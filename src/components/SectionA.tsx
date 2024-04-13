@@ -10,10 +10,10 @@ import Lottie from "lottie-react";
 
 const SectionA = () => {
   return (
-    <div className="container flex mt-20">
+    <div className="container xl:flex mt-20">
       <div className=" items-center ">
         <div className="mt-16">
-          <div className="relative ms-[5rem] animate-spin-slow">
+          <div className="relative xl:ms-[5rem] animate-spin-slow justify-center ms-[2rem]">
             <svg
               width="400"
               height="400"
@@ -45,14 +45,14 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute flex top-[28rem] mb-10">
+          <div className="absolute flex xl:top-[28rem] xl:mb-10 top-[25rem]">
             <img src={logo} alt="Logo" width="550" height="550" className="" />
           </div>
-          <div className="relative flex mt-12 ms-14">
+          <div className="relative flex xl:mt-12 xl:ms-14 ms-12 mt-12">
             <img src={text} alt="Logo" width="400" height="400" className="" />
           </div>
         </div>
-        <div className="flex flex-row gap-20 ms-16 mt-7 items-center">
+        <div className="flex flex-row gap-20 xl:ms-16 xl:mt-7 items-center ms-12">
           <Nav className="items-center gap-12">
             <div className=" flex">
               <Nav.Link>
@@ -90,11 +90,11 @@ const SectionA = () => {
           </Nav>
         </div>
       </div>
-      <div className="ms-[20rem]">
-        <div className="w-[41rem] h-[41rem]">
+      <div className="xl:ms-[20rem]">
+        <div className="xl:w-[41rem] xl:h-[41rem]">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
-        <div className="absolute top-[40rem] right-[14rem]">
+        <div className="absolute xl:top-[40rem] xl:right-[14rem] top-[42rem] right-[1rem]">
           <svg
             width="140"
             height="140"

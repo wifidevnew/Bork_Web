@@ -10,19 +10,17 @@ function NavbarGlobal() {
         className="justify-between w-full flex"
       >
         <div className="flex w-[100%] items-center justify-between">
-          <div className="flex ms-[15rem]">
+          <div className="flex xl:ms-[15rem]">
             <Navbar.Brand href="#home">
               <img
                 src={logo}
                 alt="Logo"
-                width="150"
-                height="150"
-                className=" items-center"
+                className=" items-center img-fluid w-16 h-auto"
               />
             </Navbar.Brand>
           </div>
           <div>
-            <Nav className="flex items-center gap-24 text-2xl me-[10rem]">
+            <Nav className="flex items-center xl:gap-24 xl:text-2xl xl:me-[10rem]">
               <Nav.Link
                 className="text-white hover:scale-110 transition-transform duration-300"
                 href="#home"
@@ -42,9 +40,7 @@ function NavbarGlobal() {
                 <img
                   src={buy}
                   alt="Logo"
-                  width="90"
-                  height="90"
-                  className="d-inline-block align-center"
+                  className="d-inline-block align-center w-20 h-auto"
                 />
               </Nav.Link>
             </Nav>
