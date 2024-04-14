@@ -13,7 +13,7 @@ const SectionA = () => {
     <div className="container xl:flex mt-20">
       <div className=" items-center ">
         <div className="mt-16">
-          <div className="relative xl:ms-[5rem] animate-spin-slow justify-center ms-[2rem] sm:ms-[7rem] md:ms-[12rem]">
+          <div className="relative xl:ms-[5rem] animate-spin-slow justify-center ms-[2rem] sm:ms-[7rem] md:ms-[12rem] lg:ms-[20rem]">
             <svg
              
               viewBox="0 0 300 300"
@@ -45,14 +45,14 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute flex xl:top-[28rem] xl:mb-10 top-[22rem] sm:top-[20rem] md:left-[6rem]">
+          <div className="absolute flex xl:top-[28rem] xl:mb-10 top-[22rem] sm:top-[20rem] md:left-[6rem] lg:left-[14rem]">
             <img src={logo} alt="Logo" width="550" height="550" className="" />
           </div>
-          <div className="relative flex xl:mt-16 xl:ms-14 ms-7 mt-12 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14">
+          <div className="relative flex xl:mt-16 xl:ms-14 ms-7 mt-12 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14 lg:left-[9rem]">
             <img src={text} alt="Logo" width="400" height="400" className="" />
           </div>
         </div>
-        <div className="flex flex-row gap-4 xl:gap-12 xl:ms-16 xl:mt-2 items-center ms-12 sm:ms-24 md:ms-44">
+        <div className="flex flex-row gap-4 xl:gap-12 xl:ms-16 xl:mt-2 items-center ms-12 sm:ms-24 md:ms-44 lg:ms-[20rem]">
           <Nav className="items-center gap-4">
             <div className=" flex">
               <Nav.Link>
@@ -92,7 +92,7 @@ const SectionA = () => {
         <div className="xl:w-[41rem] xl:h-[41rem]">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
-        <div className="absolute xl:top-[40rem] xl:right-[12rem] top-[39rem] right-[1rem] sm:right-[8rem] sm:top-[42rem] md:top-[44rem]">
+        <div className="absolute xl:top-[40rem] xl:right-[12rem] top-[39rem] right-[1rem] sm:right-[8rem] sm:top-[42rem] md:top-[44rem] lg:right-[15rem] lg:top-[47rem]">
           <svg
             viewBox="0 0 300 300"
             xmlns="http://www.w3.org/2000/svg"
