@@ -7,7 +7,7 @@ const SectionD = () => {
       // style={{ height: "400px" }}
     >
       <div
-        className="xl:w-[18%] w-[50%] mx-auto xl:space-y-6 rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer items-center"
+        className="xl:w-[18%] w-[65%] mx-auto xl:space-y-6 rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer items-center"
         style={{ height: "100%" }}
       >
         <div className="px-6 py-6">
@@ -30,7 +30,7 @@ const SectionD = () => {
         </p>
       </div>
       <div
-        className="xl:w-[22%] w-[50%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
+        className="xl:w-[22%] w-[65%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
         style={{ height: "100%" }}
       >
         <div className="px-6 py-6">
@@ -52,7 +52,7 @@ const SectionD = () => {
         </p>
       </div>
       <div
-        className="xl:w-[18%] w-[50%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
+        className="xl:w-[18%] w-[65%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
         style={{ height: "100%" }}
       >
         <div className="px-6 py-6">

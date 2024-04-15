@@ -90,7 +90,7 @@ const SectionA = () => {
         <div className="xl:w-[41rem] xl:h-[41rem]">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
-        <div className="absolute 2xl:right-[21rem] xl:top-[40rem] xl:right-[12rem] top-[39rem] right-[1rem] sm:right-[8rem] sm:top-[42rem] md:top-[44rem] lg:right-[15rem] lg:top-[47rem]">
+        <div className="absolute 2xl:right-[21rem] xl:top-[40rem] xl:right-[12rem] top-[32rem] right-[1rem] sm:right-[8rem] sm:top-[42rem] md:top-[44rem] lg:right-[15rem] lg:top-[47rem]">
           <svg
             viewBox="0 0 300 300"
             xmlns="http://www.w3.org/2000/svg"
