@@ -3,15 +3,15 @@ import "../style/SectionD.css"
 const SectionD = () => {
   return (
     <div
-      className="xl:flex justify-center xl:mt-[10rem] sm:mt-[7rem] xl:w-full items-center mt-20 xl:h-[400px]"
+      className="xl:flex justify-center xl:mt-[10rem] sm:mt-[7rem] gap-0  items-center mt-20 xl:h-[400px] 2xl:w-[70%] 2xl:ms-[17rem] space-y-7 "
       // style={{ height: "400px" }}
     >
       <div
         className="xl:w-[18%] w-[50%] mx-auto xl:space-y-6 rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer items-center"
         style={{ height: "100%" }}
       >
-        <div className="px-6 py-2">
-          <div className="font-bold text-lg text-center">Token</div>
+        <div className="px-6 py-6">
+          <div className="font-bold text-3xl text-center">Token</div>
         </div>
         <div className="flex justify-center items-center mb-3">
           <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -33,8 +33,8 @@ const SectionD = () => {
         className="xl:w-[22%] w-[50%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
         style={{ height: "100%" }}
       >
-        <div className="px-6 py-2">
-          <div className="font-bold text-lg text-center ">Trust</div>
+        <div className="px-6 py-6">
+          <div className="font-bold text-3xl text-center ">Trust</div>
         </div>
         <div className="flex justify-center items-center mb-3">
           <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -55,8 +55,8 @@ const SectionD = () => {
         className="xl:w-[18%] w-[50%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
         style={{ height: "100%" }}
       >
-        <div className="px-6 py-2">
-          <div className="font-bold text-lg text-center ">Security</div>
+        <div className="px-6 py-6">
+          <div className="font-bold text-3xl text-center ">Security</div>
         </div>
         <div className="flex justify-center items-center mb-3">
           <img src={bowl} alt="Logo" width="80" height="80" className="" />

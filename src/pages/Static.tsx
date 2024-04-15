@@ -8,7 +8,7 @@ import SectionE from "../components/SectionE";
 
 const Static = () => {
   return (
-    <div className="">
+    <div className="justify-center">
       <div className="sticky top-0 z-50 bg-[#0d232d]">
         <NavbarGlobal />
       </div>

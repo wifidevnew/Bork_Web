@@ -10,7 +10,7 @@ function NavbarGlobal() {
         className="justify-between w-full flex"
       >
         <div className="flex w-[100%] items-center justify-between">
-          <div className="flex xl:ms-[10rem]">
+          <div className="flex xl:ms-[10rem] ms-[7px]">
             <Navbar.Brand href="#home">
               <img
                 src={logo}
