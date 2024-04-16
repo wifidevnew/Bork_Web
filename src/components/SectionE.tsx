@@ -10,7 +10,7 @@ const SectionE = () => {
   });
 
   return (
-    <div className="justify-center xl:mt-[20rem] mt-[10rem]">
+    <div className="justify-center xl:mt-[18rem] mt-[6rem]">
       <div ref={ref}>
         <div>
           <div className={`flex justify-center items-center 2xl:bottom-[70rem] 2xl:left-[32rem] xl:gap-52 absolute xl:left-[28rem] xl:bottom-[60rem] sm:bottom-[23rem] md:bottom-[29rem] lg:bottom-[37rem] lg:left-[15rem] md:left-[12rem] left-[2rem] sm:left-[9rem] bottom-[15rem] gap-12 lg:gap-24 animate ${inView ? 'fade-in' : ''}`}>
