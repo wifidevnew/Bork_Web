@@ -21,14 +21,16 @@ const SectionC = () => {
               <img
                 src={cloud}
                 alt="Logo"
-                className="transform -scale-x-100 mt-10 w-36 xl:w-52 h-auto md:w-40"
+                className="transform -scale-x-100 mt-10 w-36 xl:w-52 h-auto md:w-40 animate-leftright"
+                style={{ animationDelay: "6s" }}
               />
             </div>
             <div className={` animate ${inView ? 'animate-clouda' : ''}`}>
               <img
                 src={cloud}
                 alt="Logo"
-                className="w-60 xl:w-80 h-auto"
+                className="w-60 xl:w-80 h-auto animate-leftright"
+                style={{ animationDelay: "6s" }}
               />
             </div>
           </div>

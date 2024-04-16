@@ -39,4 +39,19 @@
     animation: moveRightToPosition ease 3s forwards;
   }
   
+  @keyframes updown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Naik */
+    }
+    100% {
+      transform: translateY(10px); /* Turun */
+    }
+  }
+  
+  .animate-updown {
+    animation: updown 3s ease infinite;
+  }
   

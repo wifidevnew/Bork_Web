@@ -9,9 +9,6 @@ const SectionB:React.FC = () => {
     threshold: 0.5,
   });
 
-    
-  
-
   return (
     <div className="xl:mt-20 justify-center flex">
       <div ref={ref}>
@@ -19,8 +16,8 @@ const SectionB:React.FC = () => {
           <div className="absolute fade-in">
             <img src={text1} alt="Logo" className="w-36 xl:w-60 h-auto" />
           </div>
-          <div className={`relative  xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] animate ${inView ? 'animate-clouda' : ''}`}>
-            <img src={cloud} alt="Logo" className="w-28 sm:w-36 xl:w-60 h-auto md:w-44" />
+          <div className={`relative  xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] animate ${inView ? 'animate-clouda' : ''}  `}>
+            <img src={cloud} alt="Logo" className="w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown" style={{ animationDelay: "6s" }} />
           </div>
         </div>
         <div className="relative">
@@ -37,7 +34,8 @@ const SectionB:React.FC = () => {
             <img
               src={cloud}
               alt="Logo"
-              className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44"
+              className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown" 
+              style={{ animationDelay: "6s" }}
             />
           </div>
         </div>

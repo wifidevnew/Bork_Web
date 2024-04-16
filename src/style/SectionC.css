@@ -38,3 +38,20 @@
   .animate-clouda {
     animation: moveRightToPosition ease 3s forwards;
   }
+
+  @keyframes leftright {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-10px); /* Bergerak ke kiri */
+    }
+    100% {
+      transform: translateX(10px); /* Bergerak ke kanan */
+    }
+  }
+  
+  .animate-leftright {
+    animation: leftright 4s ease infinite;
+  }
+  
