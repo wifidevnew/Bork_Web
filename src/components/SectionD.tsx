@@ -3,11 +3,11 @@ import "../style/SectionD.css"
 const SectionD = () => {
   return (
     <div
-      className="xl:flex justify-center xl:mt-[10rem] sm:mt-[7rem] gap-0  items-center mt-20 xl:h-[400px] 2xl:w-[70%] 2xl:ms-[17rem] space-y-7 "
+      className="xl:flex xl:mt-[10rem] sm:mt-[7rem] gap-28  items-center mt-20 xl:h-[400px] 2xl:w-[70%] 2xl:ms-[28rem] space-y-7 "
       // style={{ height: "400px" }}
     >
       <div
-        className="xl:w-[18%] w-[65%] mx-auto xl:space-y-6 rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer items-center"
+        className="xl:w-[18%] w-[65%] 2xl:mt-7  xl:space-y-6 rounded overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer items-center"
         style={{ height: "100%" }}
       >
         <div className="px-6 py-6">
@@ -30,7 +30,7 @@ const SectionD = () => {
         </p>
       </div>
       <div
-        className="xl:w-[22%] w-[65%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
+        className="xl:w-[22%] w-[65%]   sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
         style={{ height: "100%" }}
       >
         <div className="px-6 py-6">
@@ -52,7 +52,7 @@ const SectionD = () => {
         </p>
       </div>
       <div
-        className="xl:w-[18%] w-[65%] mx-auto  sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
+        className="xl:w-[18%] w-[65%]   sm:h-[50%] sm:w-[40%] rounded xl:space-y-6 overflow-hidden shadow-lg bg-gradient-to-br from-[#023f5c] to-[#121e2e] justify-center fade-in hover:scale-110 transition-transform duration-300 cursor-pointer"
         style={{ height: "100%" }}
       >
         <div className="px-6 py-6">

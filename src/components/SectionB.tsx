@@ -1,17 +1,25 @@
+import { useInView } from "react-intersection-observer"
 import text1 from "../assets/aboutsafemooncolour.svg"
 import text2 from "../assets/BorkParagraphTurqoise.svg"
 import cloud from "../assets/cloud.svg"
 import "../style/SectionB.css"
 
-const SectionB = () => {
+const SectionB:React.FC = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+  });
+
+    
+  
+
   return (
     <div className="xl:mt-20 justify-center flex">
-      <div>
+      <div ref={ref}>
         <div className="flex justify-center items-center relative">
           <div className="absolute fade-in">
             <img src={text1} alt="Logo" className="w-36 xl:w-60 h-auto" />
           </div>
-          <div className="relative  xl:left-[25rem] animate-clouda z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem]">
+          <div className={`relative  xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] animate ${inView ? 'animate-clouda' : ''}`}>
             <img src={cloud} alt="Logo" className="w-28 sm:w-36 xl:w-60 h-auto md:w-44" />
           </div>
         </div>
@@ -25,7 +33,7 @@ const SectionB = () => {
               className=""
             />
           </div>
-          <div className="absolute top-[8rem] sm:top-[12rem] xl:top-[20rem] sm:left-[4rem] md:left-[2rem] lg:top-[21rem] md:top-[15rem] xl:-left-[1px]  transform -translate-x-1/2 animate-cloud" style={{ zIndex: '-1' }}>
+          <div className={`absolute top-[8rem] sm:top-[12rem] xl:top-[20rem] sm:left-[4rem] md:left-[2rem] lg:top-[21rem] md:top-[15rem] xl:-left-[1px]  transform -translate-x-1/2  animate ${inView ? 'animate-cloud' : ''}`} style={{ zIndex: '-1' }}>
             <img
               src={cloud}
               alt="Logo"

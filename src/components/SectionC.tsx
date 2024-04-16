@@ -3,24 +3,28 @@ import cloud from "../assets/Night cloud.svg";
 import dog from "../assets/BorkDogsmall.svg";
 import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
+import { useInView } from "react-intersection-observer";
 
 const SectionC = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+  });
   return (
     <div className="xl:mt-[10rem] mt-20 justify-center flex">
-      <div className="">
+      <div ref={ref}>
         <div className="flex justify-center">
           <div className="absolute mt-16 fade-in">
             <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
           </div>
           <div className="relative flex mt-10 md:mt-16">
-            <div className="animate-cloud">
+            <div className={` animate ${inView ? 'animate-cloud' : ''}`}>
               <img
                 src={cloud}
                 alt="Logo"
                 className="transform -scale-x-100 mt-10 w-36 xl:w-52 h-auto md:w-40"
               />
             </div>
-            <div className="animate-clouda">
+            <div className={` animate ${inView ? 'animate-clouda' : ''}`}>
               <img
                 src={cloud}
                 alt="Logo"
