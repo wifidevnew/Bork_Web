@@ -34,8 +34,8 @@ const SectionC = () => {
               />
             </div>
           </div>
-          <div className="absolute justify-center mt-10 fade-in">
-            <img src={text} alt="Logo" className="w-72 xl:w-96 sm:w-80 h-auto md:w-96" />
+          <div className={`absolute justify-center mt-10 animate ${inView ? 'fade-in' : ''}`}>
+            <img src={text} alt="Logo" className="w-72 xl:w-96 sm:w-80 h-auto md:w-96 fade-in" />
           </div>
         </div>
         <div className="fade-in">
