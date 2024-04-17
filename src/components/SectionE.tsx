@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 const SectionE = () => {
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.1,
   });
 
   return (
@@ -18,7 +18,7 @@ const SectionE = () => {
               <img
                 src={bone}
                 alt="Logo"
-                className="fade-in w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-20"
+                className="fade-in w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12"
               />
             </div>
             <div>
@@ -32,7 +32,7 @@ const SectionE = () => {
               <img
                 src={bone}
                 alt="Logo"
-                className="fade-in w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-20"
+                className="fade-in w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12"
               />
             </div>
           </div>
@@ -52,11 +52,11 @@ const SectionE = () => {
               className="w-48 h-28 xl:w-[30rem] xl:h-[300px] md:w-[20rem] md:h-[200px] lg:w-[30rem] lg:h-[300px]"
             ></iframe>
           </div>
-          <div className={`absolute 2xl:left-[57rem] 2xl:bottom-[14rem] xl:left-[52rem] xl:bottom-[20rem] rotate-45 fade-in bottom-[4rem] sm:left-[20rem] left-[10rem] md:left-[22rem] md:bottom-[7rem] lg:left-[29rem] animate ${inView ? 'fade-in' : ''}`}>
+          <div className={`absolute 2xl:left-[57rem] 2xl:bottom-[20rem] xl:left-[52rem] xl:bottom-[20rem] rotate-45 fade-in bottom-[4rem] sm:left-[20rem] left-[10rem] md:left-[22rem] md:bottom-[7rem] lg:left-[29rem] animate ${inView ? 'fade-in' : ''}`}>
             <img
               src={bone}
               alt="Logo"
-              className="w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-20"
+              className="w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 fade-in"
             />
           </div>
           <div className="flex justify-center">

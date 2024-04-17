@@ -13,7 +13,7 @@ const SectionC = () => {
     <div className="xl:mt-[10rem] mt-20 justify-center flex 2xl:mt-[13rem]">
       <div ref={ref}>
         <div className="flex justify-center">
-          <div className="absolute mt-16 fade-in">
+          <div className="absolute mt-16 fade-in animate-spin" style={{ animationDuration: "50s" }}>
             <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
           </div>
           <div className="relative flex mt-10 md:mt-16">
