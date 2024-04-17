@@ -23,12 +23,14 @@
   }
   
   .animate-cloud {
-    animation: moveLeftToPosition ease 3s forwards;
+    animation: moveLeftToPosition ease 4s forwards;
+    transition: all 1s;
+    
   }
 
   @keyframes moveRightToPosition {
     0% {
-      transform: translateX(100%);
+      transform: translateX(200px);
     }
     100% {
       transform: translateX(0);
@@ -36,20 +38,21 @@
   }
   
   .animate-clouda {
-    animation: moveRightToPosition ease 3s forwards;
+    animation: moveRightToPosition ease 4s forwards;
   }
   
   @keyframes updown {
-    0%, 100% {
-      transform: translateY(0);
+    0% {
+      transform: translateY(-10px);
     }
     50% {
-      transform: translateY(-10px); /* Naik */
+      transform: translateY(10px);
     }
     100% {
-      transform: translateY(10px); /* Turun */
+      transform: translateY(-10px);
     }
   }
+  
   
   .animate-updown {
     animation: updown 3s ease infinite;

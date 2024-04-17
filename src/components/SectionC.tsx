@@ -10,7 +10,7 @@ const SectionC = () => {
     threshold: 0.2,
   });
   return (
-    <div className="xl:mt-[10rem] mt-20 justify-center flex">
+    <div className="xl:mt-[10rem] mt-20 justify-center flex 2xl:mt-[13rem]">
       <div ref={ref}>
         <div className="flex justify-center">
           <div className="absolute mt-16 fade-in">

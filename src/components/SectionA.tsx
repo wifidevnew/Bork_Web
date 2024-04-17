@@ -49,10 +49,10 @@ const SectionA = () => {
             <img src={logo} alt="Logo" width="550" height="550" className="" />
           </div>
           <div className="relative flex 2xl:-left-[1rem] xl:mt-16 xl:ms-14 mt-8 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14 lg:left-[9rem]">
-            <img src={text} alt="Logo" width="400" height="400" className="" />
+            <img src={text} alt="Logo" className="2xl:w-[1500px]" />
           </div>
         </div>
-        <div className="flex flex-row xl:gap-12 xl:ms-16 xl:mt-2 items-center ms-8 sm:ms-24 md:ms-44 lg:ms-[20rem] 2xl:ms-[1rem]">
+        <div className="flex flex-row xl:gap-12 xl:ms-16 xl:mt-2 items-center ms-8 sm:ms-24 md:ms-44 lg:ms-[20rem] 2xl:ms-[2rem]">
           <Nav className="items-center">
             <div className=" flex">
               <Nav.Link>

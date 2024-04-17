@@ -3,11 +3,29 @@ import text1 from "../assets/aboutsafemooncolour.svg"
 import text2 from "../assets/BorkParagraphTurqoise.svg"
 import cloud from "../assets/cloud.svg"
 import "../style/SectionB.css"
+import { useEffect, useState } from "react"
 
 const SectionB:React.FC = () => {
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
   });
+
+  const [mousePosition, setMousePosition] = useState<{ x: number; y: number; }>({ x: 0, y: 0 });
+
+  
+  const handleMouseMove = (event: MouseEvent) => {
+    setMousePosition({ x: event.clientX, y: event.clientY });
+  };
+
+  useEffect(() => {
+    
+    document.addEventListener('mousemove', handleMouseMove);
+
+   
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
 
   return (
     <div className="xl:mt-20 justify-center flex">
@@ -16,8 +34,8 @@ const SectionB:React.FC = () => {
           <div className="absolute fade-in">
             <img src={text1} alt="Logo" className="w-36 xl:w-60 h-auto" />
           </div>
-          <div className={`relative  xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] animate ${inView ? 'animate-clouda' : ''}  `}>
-            <img src={cloud} alt="Logo" className="w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown" style={{ animationDelay: "6s" }} />
+          <div className={`relative  xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] animate ${inView ? 'animate-clouda' : ''}`}>
+            <img src={cloud} alt="Logo" className="w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown" style={{ animationDelay: "6s", left: `${mousePosition.x}px`, top: `${mousePosition.y}px` }} />
           </div>
         </div>
         <div className="relative">

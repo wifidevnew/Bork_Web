@@ -3,7 +3,7 @@ import "../style/SectionD.css"
 const SectionD = () => {
   return (
     <div
-      className="xl:flex xl:mt-[10rem] sm:mt-[7rem] gap-28  items-center mt-20 xl:h-[400px] 2xl:w-[70%] 2xl:ms-[28rem] space-y-7 "
+      className="xl:flex xl:mt-[10rem] sm:mt-[7rem] gap-28  items-center mt-20 xl:h-[400px] 2xl:w-[70%] 2xl:ms-[28rem] space-y-7 2xl:mt-[3rem] "
       // style={{ height: "400px" }}
     >
       <div
@@ -25,7 +25,7 @@ const SectionD = () => {
           <span>0/0</span>
         </p>
         <p className="flex flex-col justify-center text-center">
-          <span>Router</span>
+          {/* <span>Router</span> */}
           <span>Uniswap V3</span>
         </p>
       </div>

@@ -40,16 +40,17 @@
   }
 
   @keyframes leftright {
-    0%, 100% {
-      transform: translateX(0);
+    0% {
+      transform: translateX(-10px);
     }
     50% {
-      transform: translateX(-10px); /* Bergerak ke kiri */
+      transform: translateX(10px);
     }
     100% {
-      transform: translateX(10px); /* Bergerak ke kanan */
+      transform: translateX(-10px);
     }
   }
+  
   
   .animate-leftright {
     animation: leftright 4s ease infinite;
