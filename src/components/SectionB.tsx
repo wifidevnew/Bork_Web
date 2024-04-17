@@ -1,31 +1,22 @@
-import { useInView } from "react-intersection-observer"
-import text1 from "../assets/aboutsafemooncolour.svg"
-import text2 from "../assets/BorkParagraphTurqoise.svg"
-import cloud from "../assets/cloud.svg"
-import "../style/SectionB.css"
-import { useEffect, useState } from "react"
+import React, { useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import text1 from "../assets/aboutsafemooncolour.svg";
+import text2 from "../assets/BorkParagraphTurqoise.svg";
+import cloud from "../assets/cloud.svg";
+import "../style/SectionB.css";
 
-const SectionB:React.FC = () => {
+const SectionB: React.FC = () => {
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0.2,
   });
 
-  const [mousePosition, setMousePosition] = useState<{ x: number; y: number; }>({ x: 0, y: 0 });
-
-  
-  const handleMouseMove = (event: MouseEvent) => {
-    setMousePosition({ x: event.clientX, y: event.clientY });
-  };
+  const [cloudAnimationStarted, setCloudAnimationStarted] = useState(false);
 
   useEffect(() => {
-    
-    document.addEventListener('mousemove', handleMouseMove);
-
-   
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, []);
+    if (inView && !cloudAnimationStarted) {
+      setCloudAnimationStarted(true);
+    }
+  }, [inView, cloudAnimationStarted]);
 
   return (
     <div className="xl:mt-20 justify-center flex">
@@ -34,12 +25,21 @@ const SectionB:React.FC = () => {
           <div className="absolute fade-in">
             <img src={text1} alt="Logo" className="w-36 xl:w-60 h-auto" />
           </div>
-          <div className={`relative  xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] animate ${inView ? 'animate-clouda' : ''}`}>
-            <img src={cloud} alt="Logo" className="w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown" style={{ animationDelay: "6s", left: `${mousePosition.x}px`, top: `${mousePosition.y}px` }} />
+          <div
+            className={`relative xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] ${cloudAnimationStarted ? 'animate-clouda' : ''}`}
+          >
+            <img
+              src={cloud}
+              alt="Logo"
+              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown ${cloudAnimationStarted ? 'animate' : ''}`}
+              style={{ animationDelay: "6s" }}
+            />
           </div>
         </div>
         <div className="relative">
-          <div className="fade-in relative">
+          <div
+            className={`relative animate ${inView ? "fade-in" : ""}`}
+          >
             <img
               src={text2}
               alt="Logo"
@@ -48,18 +48,23 @@ const SectionB:React.FC = () => {
               className=""
             />
           </div>
-          <div className={`absolute top-[8rem] sm:top-[12rem] xl:top-[20rem] sm:left-[4rem] md:left-[2rem] lg:top-[21rem] md:top-[15rem] xl:-left-[1px]  transform -translate-x-1/2  animate ${inView ? 'animate-cloud' : ''}`} style={{ zIndex: '-1' }}>
+          <div
+            className={`absolute top-[8rem] sm:top-[12rem] xl:top-[20rem] sm:left-[4rem] md:left-[2rem] lg:top-[21rem] md:top-[15rem] xl:-left-[1px]  transform -translate-x-1/2 ${cloudAnimationStarted ? 'animate-cloud' : ''}`}
+            style={{ zIndex: "-1" }}
+          >
             <img
               src={cloud}
               alt="Logo"
-              className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown" 
+              className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown"
               style={{ animationDelay: "6s" }}
             />
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionB
+
+
+export default SectionB;

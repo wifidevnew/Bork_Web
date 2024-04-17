@@ -24,8 +24,7 @@
   
   .animate-cloud {
     animation: moveLeftToPosition ease 4s forwards;
-    transition: all 1s;
-    
+    animation-iteration-count: 1;
   }
 
   @keyframes moveRightToPosition {
@@ -39,6 +38,7 @@
   
   .animate-clouda {
     animation: moveRightToPosition ease 4s forwards;
+    animation-iteration-count: 1;
   }
   
   @keyframes updown {

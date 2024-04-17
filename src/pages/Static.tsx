@@ -16,11 +16,13 @@ const Static = () => {
         <SectionA />
         <SectionB />
         <SectionC />
-        <SectionD />
+        <div className="border-10 border-solid border-green-500">
+          <SectionD />
+        </div>
         <SectionE />
       </div>
       <div className="bg-[#b7d7fd] z-50">
-        <FooterGlobal/>
+        <FooterGlobal />
       </div>
     </div>
   );

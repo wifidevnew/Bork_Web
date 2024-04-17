@@ -3,8 +3,8 @@ import "../style/SectionD.css";
 const SectionD = () => {
   return (
     <div className="w-full justify-center flex">
-      <div className="mt-[5rem] flex rounded w-[36%] space-x-16 overflow-hidden shadow-lg bg-gradient-to-br from-[#356172] to-[#0b1420] fade-in hover:scale-110 transition-transform duration-300 cursor-pointer">
-        <div className="gap-28 flex-row">
+      <div className="mt-[5rem] flex gap-16 mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
+        <div className="space-y-0">
           <div className="px-6 py-6">
             <div className="font-bold text-3xl text-center">Token</div>
           </div>
@@ -24,7 +24,7 @@ const SectionD = () => {
             <span>Uniswap V3</span>
           </p>
         </div>
-        <div>
+        <div className="space-y-0">
           <div className="px-6 py-6">
             <div className="font-bold text-3xl text-center ">Trust</div>
           </div>
@@ -43,7 +43,7 @@ const SectionD = () => {
             <span>Devotion to the meme</span>
           </p>
         </div>
-        <div>
+        <div className="space-y-0">
           <div className="px-6 py-6">
             <div className="font-bold text-3xl text-center ">Security</div>
           </div>
