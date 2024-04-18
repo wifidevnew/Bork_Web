@@ -7,44 +7,38 @@ import "../style/SectionB.css";
 
 const SectionB: React.FC = () => {
   const { ref, inView } = useInView({
-    threshold: 0.2,
+    threshold: 0.1,
   });
 
   const [cloudAnimationStarted, setCloudAnimationStarted] = useState(false);
-  const [cloudVisible, setCloudVisible] = useState(false);
 
   useEffect(() => {
     if (inView && !cloudAnimationStarted) {
-      setTimeout(() => {
-        setCloudVisible(true);
-        setCloudAnimationStarted(true); 
-      }, 1);
+      setCloudAnimationStarted(true);
     }
   }, [inView, cloudAnimationStarted]);
 
   return (
-    <div className="xl:mt-20 justify-center flex 2xl:mt-[10rem]">
+    <div className="xl:mt-20 2xl:mt-[10rem] justify-center flex">
       <div ref={ref}>
         <div className="flex justify-center items-center relative">
-          <div className="absolute fade-in">
+          <div className="absolute">
             <img src={text1} alt="Logo" className={`w-36 xl:w-60 h-auto`} />
           </div>
           <div
             className={`relative flex left-[25rem] ${cloudAnimationStarted ? 'animate-clouda' : ''}`}
           >
-            {cloudVisible && (
-              <img
-                src={cloud}
-                alt="Logo"
-                className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
-                style={{ animationDelay: "6s" }}
-              />
-            )}
+            <img
+              src={cloud}
+              alt="Logo"
+              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
+              style={{ animationDelay: "4s" }}
+            />
           </div>
         </div>
-        <div className="relative">
+        <div className="relative justify-center">
           <div
-            className={`relative fade-in`}
+            className={`relative`}
           >
             <img
               src={text2}
@@ -58,14 +52,12 @@ const SectionB: React.FC = () => {
             className={`absolute top-[8rem] sm:top-[12rem] xl:top-[20rem] sm:left-[4rem] md:left-[2rem] lg:top-[21rem] md:top-[15rem] xl:-left-[1px]  transform -translate-x-1/2 ${cloudAnimationStarted ? 'animate-cloud' : ''}`}
             style={{ zIndex: "-1" }}
           >
-            {cloudVisible && (
-              <img
-                src={cloud}
-                alt="Logo"
-                className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown"
-                style={{ animationDelay: "6s" }}
-              />
-            )}
+            <img
+              src={cloud}
+              alt="Logo"
+              className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown"
+              style={{ animationDelay: "4s" }}
+            />
           </div>
         </div>
       </div>
