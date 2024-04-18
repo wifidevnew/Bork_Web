@@ -4,11 +4,20 @@ import dog from "../assets/BorkDogsmall.svg";
 import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
 import { useInView } from "react-intersection-observer";
+import { useEffect, useState } from "react";
 
 const SectionC = () => {
   const { ref, inView } = useInView({
     threshold: 0.2,
   });
+
+  const [cloudAnimationStarted, setCloudAnimationStarted] = useState(false);
+
+  useEffect(() => {
+    if (inView && !cloudAnimationStarted) {
+      setCloudAnimationStarted(true);
+    }
+  }, [inView, cloudAnimationStarted]);
   return (
     <div className="xl:mt-[10rem] mt-20 justify-center flex 2xl:mt-[13rem]">
       <div ref={ref}>
@@ -17,7 +26,7 @@ const SectionC = () => {
             <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
           </div>
           <div className="relative flex mt-10 md:mt-16">
-            <div className={` animate ${inView ? 'animate-cloud' : ''}`}>
+            <div className={` ${cloudAnimationStarted ? 'animate-cloud' : ''}`}>
               <img
                 src={cloud}
                 alt="Logo"
@@ -25,11 +34,11 @@ const SectionC = () => {
                 style={{ animationDelay: "6s" }}
               />
             </div>
-            <div className={` animate ${inView ? 'animate-clouda' : ''}`}>
+            <div className={` ${cloudAnimationStarted ? 'animate-clouda' : ''}`}>
               <img
                 src={cloud}
                 alt="Logo"
-                className="w-60 xl:w-80 h-auto animate-leftright"
+                className={`w-60 xl:w-80 h-auto animate-leftright ${cloudAnimationStarted ? 'animate' : ''}`}
                 style={{ animationDelay: "6s" }}
               />
             </div>

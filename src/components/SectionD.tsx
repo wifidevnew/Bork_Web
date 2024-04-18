@@ -3,19 +3,19 @@ import "../style/SectionD.css";
 const SectionD = () => {
   return (
     <div className="w-full justify-center flex">
-      <div className="mt-[5rem] flex gap-16 mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
-        <div className="space-y-0">
-          <div className="px-6 py-6">
+      <div className="mt-[5rem] px-10  flex gap-36 mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
+        <div className="space-y-2">
+          <div className="px-6 py-8">
             <div className="font-bold text-3xl text-center">Token</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center space-y-2 ">
             <span>Total Suply</span>
             <span>One Billion</span>
           </p>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center space-y-2">
             <span>Tax</span>
             <span>0/0</span>
           </p>
@@ -24,18 +24,18 @@ const SectionD = () => {
             <span>Uniswap V3</span>
           </p>
         </div>
-        <div className="space-y-0">
-          <div className="px-6 py-6">
+        <div className="space-y-2 pb-7">
+          <div className="px-6 py-8">
             <div className="font-bold text-3xl text-center ">Trust</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center  text-center">
+          <p className="flex flex-col justify-center  text-center space-y-2">
             <span>Community driven, because</span>
             <span>your voice matters</span>
           </p>
-          <p className="flex flex-col justify-center text-center ">
+          <p className="flex flex-col justify-center text-center  space-y-2">
             <span>No false promises, just pure</span>
             <span>transparency and honesty</span>
           </p>
@@ -43,8 +43,8 @@ const SectionD = () => {
             <span>Devotion to the meme</span>
           </p>
         </div>
-        <div className="space-y-0">
-          <div className="px-6 py-6">
+        <div className="space-y-2">
+          <div className="px-6 py-8">
             <div className="font-bold text-3xl text-center ">Security</div>
           </div>
           <div className="flex justify-center items-center mb-3">
