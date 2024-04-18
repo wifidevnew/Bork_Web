@@ -23,7 +23,7 @@ const SectionB: React.FC = () => {
       <div ref={ref}>
         <div className="flex justify-center items-center relative">
           <div className="absolute fade-in">
-            <img src={text1} alt="Logo" className="w-36 xl:w-60 h-auto" />
+            <img src={text1} alt="Logo" className={`w-36 xl:w-60 h-auto ${cloudAnimationStarted ? 'fade-in' : ''}`} />
           </div>
           <div
             className={`relative xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] ${cloudAnimationStarted ? 'animate-clouda' : ''}`}
@@ -38,7 +38,7 @@ const SectionB: React.FC = () => {
         </div>
         <div className="relative">
           <div
-            className={`relative animate ${inView ? "fade-in" : ""}`}
+            className={`relative ${cloudAnimationStarted ? 'fade-in' : ''}`}
           >
             <img
               src={text2}

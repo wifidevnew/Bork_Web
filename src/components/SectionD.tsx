@@ -11,15 +11,15 @@ const SectionD = () => {
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center text-center space-y-2 ">
+          <p className="flex flex-col justify-center text-center space-y-2 text-lg ">
             <span>Total Suply</span>
             <span>One Billion</span>
           </p>
-          <p className="flex flex-col justify-center text-center space-y-2">
+          <p className="flex flex-col justify-center text-center space-y-2 text-lg">
             <span>Tax</span>
             <span>0/0</span>
           </p>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center text-lg">
             {/* <span>Router</span> */}
             <span>Uniswap V3</span>
           </p>
@@ -31,15 +31,15 @@ const SectionD = () => {
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center  text-center space-y-2">
+          <p className="flex flex-col justify-center  text-center space-y-2 text-lg">
             <span>Community driven, because</span>
             <span>your voice matters</span>
           </p>
-          <p className="flex flex-col justify-center text-center  space-y-2">
+          <p className="flex flex-col justify-center text-center  space-y-2 text-lg">
             <span>No false promises, just pure</span>
             <span>transparency and honesty</span>
           </p>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center text-lg">
             <span>Devotion to the meme</span>
           </p>
         </div>
@@ -50,13 +50,13 @@ const SectionD = () => {
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center text-lg">
             <span>Contract renounced</span>
           </p>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center text-lg">
             <span>Liquidity locked</span>
           </p>
-          <p className="flex flex-col justify-center text-center">
+          <p className="flex flex-col justify-center text-center text-lg">
             <span>No presale or ICO</span>
           </p>
         </div>
