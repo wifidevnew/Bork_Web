@@ -25,7 +25,7 @@ const SectionC = () => {
           <div className="absolute mt-16 fade-in animate-spin" style={{ animationDuration: "50s" }}>
             <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
           </div>
-          <div className="relative flex mt-10 md:mt-16">
+          <div className="relative flex mt-10 md:mt-16 ">
             <div className={`${cloudAnimationStarted ? 'animate-cloud' : ''}`}>
               <img
                 src={cloud}
@@ -38,7 +38,7 @@ const SectionC = () => {
               <img
                 src={cloud}
                 alt="Logo"
-                className={`w-60 xl:w-80 h-auto animate-leftright ${cloudAnimationStarted ? 'animate' : ''}`}
+                className={`w-60 xl:w-80 h-auto animate-leftright`}
                 style={{ animationDelay: "6s" }}
               />
             </div>

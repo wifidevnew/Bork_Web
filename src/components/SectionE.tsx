@@ -78,7 +78,7 @@ const SectionE = () => {
             <img
               src={bone}
               alt="Logo"
-              className={`w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12  rotate-bone cursor-pointer`}
+              className={`w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12  ${inView ? 'rotate-bone' : ''} cursor-pointer`}
             />
           </div>
           <div className="flex justify-center">

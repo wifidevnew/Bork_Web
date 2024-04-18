@@ -11,34 +11,40 @@ const SectionB: React.FC = () => {
   });
 
   const [cloudAnimationStarted, setCloudAnimationStarted] = useState(false);
+  const [cloudVisible, setCloudVisible] = useState(false);
 
   useEffect(() => {
     if (inView && !cloudAnimationStarted) {
-      setCloudAnimationStarted(true);
+      setTimeout(() => {
+        setCloudVisible(true);
+        setCloudAnimationStarted(true); 
+      }, 1);
     }
   }, [inView, cloudAnimationStarted]);
 
   return (
-    <div className="xl:mt-20 justify-center flex">
+    <div className="xl:mt-20 justify-center flex 2xl:mt-[10rem]">
       <div ref={ref}>
         <div className="flex justify-center items-center relative">
           <div className="absolute fade-in">
-            <img src={text1} alt="Logo" className={`w-36 xl:w-60 h-auto ${cloudAnimationStarted ? 'fade-in' : ''}`} />
+            <img src={text1} alt="Logo" className={`w-36 xl:w-60 h-auto`} />
           </div>
           <div
-            className={`relative xl:left-[25rem]  z-10 left-[8rem] sm:left-[14rem] lg:left-[22rem] ${cloudAnimationStarted ? 'animate-clouda' : ''}`}
+            className={`relative flex left-[25rem] ${cloudAnimationStarted ? 'animate-clouda' : ''}`}
           >
-            <img
-              src={cloud}
-              alt="Logo"
-              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown ${cloudAnimationStarted ? 'animate' : ''}`}
-              style={{ animationDelay: "6s" }}
-            />
+            {cloudVisible && (
+              <img
+                src={cloud}
+                alt="Logo"
+                className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
+                style={{ animationDelay: "6s" }}
+              />
+            )}
           </div>
         </div>
         <div className="relative">
           <div
-            className={`relative ${cloudAnimationStarted ? 'fade-in' : ''}`}
+            className={`relative fade-in`}
           >
             <img
               src={text2}
@@ -52,19 +58,19 @@ const SectionB: React.FC = () => {
             className={`absolute top-[8rem] sm:top-[12rem] xl:top-[20rem] sm:left-[4rem] md:left-[2rem] lg:top-[21rem] md:top-[15rem] xl:-left-[1px]  transform -translate-x-1/2 ${cloudAnimationStarted ? 'animate-cloud' : ''}`}
             style={{ zIndex: "-1" }}
           >
-            <img
-              src={cloud}
-              alt="Logo"
-              className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown"
-              style={{ animationDelay: "6s" }}
-            />
+            {cloudVisible && (
+              <img
+                src={cloud}
+                alt="Logo"
+                className="transform -scale-x-100 z-50 w-28 sm:w-40 xl:w-72 h-auto md:w-44 animate-updown"
+                style={{ animationDelay: "6s" }}
+              />
+            )}
           </div>
         </div>
       </div>
     </div>
   );
 };
-
-
 
 export default SectionB;

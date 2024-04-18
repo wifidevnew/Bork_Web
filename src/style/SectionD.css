@@ -22,7 +22,7 @@
     }
   }
   
-  .rotate-bone:hover {
-    animation: spin 3s linear infinite;
+  .rotate-bone {
+    animation: spin 3s linear forwards;
   }
  
