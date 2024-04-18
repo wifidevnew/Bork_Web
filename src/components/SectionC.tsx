@@ -19,18 +19,18 @@ const SectionC = () => {
     }
   }, [inView, cloudAnimationStarted]);
   return (
-    <div className="xl:mt-[10rem] mt-20 justify-center flex 2xl:mt-[13rem]">
+    <div className="xl:mt-[20rem] mt-20 justify-center flex 2xl:mt-[20rem] w-full">
       <div ref={ref}>
         <div className="flex justify-center">
           <div className="absolute mt-16 fade-in animate-spin" style={{ animationDuration: "50s" }}>
             <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
           </div>
           <div className="relative flex mt-10 md:mt-16">
-            <div className={` ${cloudAnimationStarted ? 'animate-cloud' : ''}`}>
+            <div className={`${cloudAnimationStarted ? 'animate-cloud' : ''}`}>
               <img
                 src={cloud}
                 alt="Logo"
-                className="transform -scale-x-100 mt-10 w-36 xl:w-52 h-auto md:w-40 animate-leftright"
+                className={` mt-10 w-36 xl:w-52 h-auto md:w-40 animate-leftright `}
                 style={{ animationDelay: "6s" }}
               />
             </div>
@@ -43,8 +43,8 @@ const SectionC = () => {
               />
             </div>
           </div>
-          <div className={`absolute justify-center mt-10 animate ${inView ? 'fade-in' : ''}`}>
-            <img src={text} alt="Logo" className="w-72 xl:w-96 sm:w-80 h-auto md:w-96 fade-in" />
+          <div className={`absolute justify-center mt-10`}>
+            <img src={text} alt="Logo" className="w-72 xl:w-96 sm:w-80 h-auto md:w-96" />
           </div>
         </div>
         <div className="fade-in">
