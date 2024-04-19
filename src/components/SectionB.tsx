@@ -67,26 +67,48 @@ const SectionB: React.FC = () => {
           <div className="">
             <img src={text1} alt="Logo" className={`w-36 xl:w-60 h-auto`} />
           </div>
-          <div className={`rounded-xl absolute flex w-[300px] h-auto border-4 border-green-500 justify-center -rotate-12 2xl:right-[50vw]`}>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-3 2xl:right-[48vw] top-[1rem]`}>
             {/* <img
               src={cloud}
               alt="Logo"
               className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
               style={{ animationDelay: "4s" }}
             /> */}
-            <video className="w-full" ref={videoRef} autoPlay controls >
+            <video className="w-full z-0" ref={videoRef} autoPlay controls >
               <source src={video1} type="video/mp4"/>
             </video>
           </div>
-          <div className={`rounded-xl absolute flex w-[300px] h-auto border-4 border-green-500 justify-center rotate-12 2xl:left-[50vw]`}>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12 2xl:left-[46vw] top-[1rem]`}>
             {/* <img
               src={cloud}
               alt="Logo"
               className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
               style={{ animationDelay: "4s" }}
             /> */}
-            <video className="w-full" ref={videoRef} autoPlay controls >
+            <video className="w-full z-0" ref={videoRef} autoPlay controls >
               <source src={video2} type="video/mp4"/>
+            </video>
+          </div>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-[30] 2xl:left-[48vw] top-[34vh]`}>
+            {/* <img
+              src={cloud}
+              alt="Logo"
+              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
+              style={{ animationDelay: "4s" }}
+            /> */}
+            <video className="w-full z-0" ref={videoRef} autoPlay controls >
+              <source src={video3} type="video/mp4"/>
+            </video>
+          </div>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-6 2xl:right-[48vw] top-[35vh]`}>
+            {/* <img
+              src={cloud}
+              alt="Logo"
+              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
+              style={{ animationDelay: "4s" }}
+            /> */}
+            <video className="w-full z-0" ref={videoRef} autoPlay controls >
+              <source src={video4} type="video/mp4"/>
             </video>
           </div>
         </div>
@@ -100,28 +122,7 @@ const SectionB: React.FC = () => {
               className=""
             />
           </div>
-          <div className={`rounded-xl absolute flex w-[300px] h-auto border-4 border-green-500 justify-center rotate-12 2xl:left-[50vw] top-[30vh]`}>
-            {/* <img
-              src={cloud}
-              alt="Logo"
-              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
-              style={{ animationDelay: "4s" }}
-            /> */}
-            <video className="w-full" ref={videoRef} autoPlay controls >
-              <source src={video3} type="video/mp4"/>
-            </video>
-          </div>
-          <div className={`rounded-xl absolute flex w-[300px] h-auto border-4 border-green-500 justify-center -rotate-12 2xl:right-[50vw] top-[30vh]`}>
-            {/* <img
-              src={cloud}
-              alt="Logo"
-              className={`w-28 sm:w-36 xl:w-60 h-auto md:w-44 animate-updown`}
-              style={{ animationDelay: "4s" }}
-            /> */}
-            <video className="w-full" ref={videoRef} autoPlay controls >
-              <source src={video4} type="video/mp4"/>
-            </video>
-          </div>
+         
         </div>
       </div>
     </div>
