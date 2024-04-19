@@ -67,7 +67,7 @@ const SectionB: React.FC = () => {
           <div className="">
             <img src={text1} alt="Logo" className={`w-36 xl:w-60 h-auto`} />
           </div>
-          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-3 2xl:right-[48vw] top-[1rem]`}>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-3 2xl:right-[49vw] top-[1rem]`}>
             {/* <img
               src={cloud}
               alt="Logo"
@@ -78,7 +78,7 @@ const SectionB: React.FC = () => {
               <source src={video1} type="video/mp4"/>
             </video>
           </div>
-          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12 2xl:left-[46vw] top-[1rem]`}>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12 2xl:left-[48vw] top-[1rem]`}>
             {/* <img
               src={cloud}
               alt="Logo"
@@ -100,7 +100,7 @@ const SectionB: React.FC = () => {
               <source src={video3} type="video/mp4"/>
             </video>
           </div>
-          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-6 2xl:right-[48vw] top-[35vh]`}>
+          <div className={`rounded-xl absolute flex w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-6 2xl:right-[49vw] top-[35vh]`}>
             {/* <img
               src={cloud}
               alt="Logo"
