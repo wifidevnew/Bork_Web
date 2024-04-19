@@ -1,6 +1,6 @@
 import moon from "../assets/MoonNight.svg";
 import cloud from "../assets/Night cloud.svg";
-import dog from "../assets/BorkDogsmall.svg";
+// import dog from "../assets/BorkDogsmall.svg";
 import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
 import { useInView } from "react-intersection-observer";
