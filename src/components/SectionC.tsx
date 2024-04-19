@@ -19,7 +19,7 @@ const SectionC = () => {
     }
   }, [inView, cloudAnimationStarted]);
   return (
-    <div className="xl:mt-[20rem] mt-20 justify-center flex 2xl:mt-[12rem] w-full min-[1440px]:mt-[12vw]">
+    <div className="xl:mt-[20rem] mt-20 justify-center flex 2xl:mt-[12rem] w-full max-[1440px]:mt-[12vw]">
       <div ref={ref}>
         <div className="flex justify-center">
           <div className="absolute  fade-in animate-spin" style={{ animationDuration: "50s" }}>

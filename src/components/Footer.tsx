@@ -12,7 +12,7 @@ const FooterGlobal = () => {
         <img
           src={love}
           alt="Logo"
-          className="xl:w-64 w-40 h-auto"
+          className="xl:w-64 w-28 h-auto"
         />
       </Navbar.Brand>
     </div>
@@ -22,16 +22,14 @@ const FooterGlobal = () => {
           <img
             src={tele}
             alt="Logo"
-            width="40"
-            height="40"
+            className="w-9 h-auto"
           />
         </Nav.Link>
         <Nav.Link href="#features">
           <img
             src={twit}
             alt="Logo"
-            width="40"
-            height="40"
+            className="w-9 h-auto"
           />
         </Nav.Link>
       </Nav>

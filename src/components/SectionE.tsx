@@ -35,14 +35,14 @@ const SectionE = () => {
   
 
   return (
-    <div className="justify-center xl:mt-[18rem] mt-[6rem] 2xl:mt-[11rem] min-[1440px]:mt-[9rem]">
+    <div className="justify-center xl:mt-[18rem] mt-[6rem] 2xl:mt-[11rem] max-[1440px]:mt-[9rem]">
       <div ref={ref}>
         <div>
-        <div className="fade-in flex w-full justify-center absolute 2xl:right-[18rem] right-[7rem] items-center bottom-[15rem] min-[1440px]:bottom-[48rem] min-[1440px]:right-[14rem]">
-          <img src={dog} alt="Logo" className="2xl:w-20 xl:w-36 h-auto 2xl:mt-10 md:mt-20 md:w-28 2xl:ms-6 w-10" />
+        <div className="fade-in flex w-full justify-center absolute 2xl:right-[18rem] right-[7rem] items-center bottom-[15rem] 2xl:bottom-[61rem] ">
+          <img src={dog} alt="Logo" className="2xl:w-30 xl:w-36 h-auto 2xl:mt-10 md:mt-20 md:w-28 2xl:ms-6 w-10" />
         </div>
           <div
-            className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh] min-[1440px]:bottom-[50rem]`}
+            className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh]`}
           >
              <div>
               <img
@@ -67,12 +67,12 @@ const SectionE = () => {
               />
             </div> */}
           </div>
-          <div className="w-full absolute flex flex-row items-center justify-center 2xl:gap-32 min-[1440px]:gap-20 gap-7 2xl:bottom-[40vh] bottom-[14vh] min-[1440px]:bottom-[32vh]">
+          <div className="w-full absolute flex flex-row items-center justify-center 2xl:gap-32 gap-7 2xl:bottom-[40vh] bottom-[14vh] ">
             <div className="rotate-12 transform origin-center fade-in">
               <img
                 src={bone}
                 alt="Logo"
-                className={` cursor-pointer w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
+                className={` cursor-pointer w-3 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
               />
             </div>
             <div
@@ -90,14 +90,14 @@ const SectionE = () => {
                 src="https://www.youtube.com/embed/aaOa61tdeL4"
                 title="YouTube video"
                 allowFullScreen
-                className="w-48 h-28 xl:w-[30rem] xl:h-[300px] md:w-[20rem] md:h-[200px] lg:w-[30rem] lg:h-[300px]"
+                className="w-40 h-20 xl:w-[30rem] xl:h-[300px] md:w-[20rem] md:h-[200px] lg:w-[30rem] lg:h-[300px]"
               ></iframe>
             </div>
             <div className="-rotate-45 transform origin-center">
               <img
                 src={bone}
                 alt="Logo"
-                className={`cursor-pointer w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
+                className={`cursor-pointer w-3 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
               />
             </div>
           </div>
@@ -107,7 +107,7 @@ const SectionE = () => {
             <img
               src={bone}
               alt="Logo"
-              className={`w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
+              className={`w-3 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
             />
           </div>
           <div className="flex justify-center">
