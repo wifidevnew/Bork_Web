@@ -19,7 +19,7 @@ const SectionB: React.FC = () => {
   }, [inView, cloudAnimationStarted]);
 
   return (
-    <div className="xl:mt-20 2xl:mt-[10rem] justify-center flex">
+    <div className="xl:mt-20 2xl:mt-[4rem] justify-center flex">
       <div ref={ref}>
         <div className="flex justify-center items-center relative">
           <div className="absolute">

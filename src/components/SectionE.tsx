@@ -1,18 +1,47 @@
 import wall from "../assets/Fencenight.svg";
 import bone from "../assets/Bone (2).svg";
 import how from "../assets/How to buy.svg";
+import dog from "../assets/BorkDogsmall.svg";
 import "../style/SectionD.css";
 import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const SectionE = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
   });
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const rotationAngle = scrollY * 0.5; 
+  
+      // Mengonversi NodeList menjadi NodeListOf<HTMLElement>
+      const boneElements = document.querySelectorAll('.rotate-bone') as NodeListOf<HTMLElement>;
+  
+      // Mengatur transformasi CSS pada setiap elemen tulang
+      boneElements.forEach(bone => {
+        bone.style.transform = `rotate(${rotationAngle}deg)`;
+      });
+    };
+  
+    // Menambahkan event listener untuk mendengarkan peristiwa scroll
+    window.addEventListener('scroll', handleScroll);
+  
+    // Membersihkan event listener saat komponen dilepas
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // Menjalankan efek hanya sekali saat komponen dimuat
+  
+
   return (
-    <div className="justify-center xl:mt-[18rem] mt-[6rem]">
+    <div className="justify-center xl:mt-[18rem] mt-[6rem] 2xl:mt-[11rem]">
       <div ref={ref}>
         <div>
+        <div className="fade-in flex w-full justify-center absolute right-[18rem]">
+          <img src={dog} alt="Logo" className="w-20 xl:w-36 h-auto mt-10 md:mt-20 md:w-28 ms-6 " />
+        </div>
           <div
             className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh]`}
           >
@@ -43,7 +72,7 @@ const SectionE = () => {
               <img
                 src={bone}
                 alt="Logo"
-                className={` cursor-pointer w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 ${inView ? 'rotate-bone' : ''}`}
+                className={` cursor-pointer w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
               />
             </div>
             <div
@@ -68,7 +97,7 @@ const SectionE = () => {
               <img
                 src={bone}
                 alt="Logo"
-                className={`cursor-pointer w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 ${inView ? 'rotate-bone' : ''}`}
+                className={`cursor-pointer w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
               />
             </div>
           </div>
@@ -78,7 +107,7 @@ const SectionE = () => {
             <img
               src={bone}
               alt="Logo"
-              className={`w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12  ${inView ? 'rotate-bone' : ''} cursor-pointer`}
+              className={`w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12 rotate-bone`}
             />
           </div>
           <div className="flex justify-center">

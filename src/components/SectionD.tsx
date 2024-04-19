@@ -6,7 +6,7 @@ const SectionD = () => {
       <div className="mt-[5rem] px-10  flex gap-36 mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
         <div className="space-y-2">
           <div className="px-6 py-8">
-            <div className="font-bold text-3xl text-center text-green-400">Token</div>
+            <div className="font-bold text-3xl text-center text-[#24bc94]">Token</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -26,7 +26,7 @@ const SectionD = () => {
         </div>
         <div className="space-y-2 pb-7">
           <div className="px-6 py-8">
-            <div className="font-bold text-3xl text-center text-green-400 ">Trust</div>
+            <div className="font-bold text-3xl text-center text-[#24bc94] ">Trust</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
@@ -45,7 +45,7 @@ const SectionD = () => {
         </div>
         <div className="space-y-2">
           <div className="px-6 py-8">
-            <div className="font-bold text-3xl text-center text-green-400">Security</div>
+            <div className="font-bold text-3xl text-center text-[#24bc94]">Security</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
