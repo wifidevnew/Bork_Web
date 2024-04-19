@@ -11,9 +11,9 @@ import Lottie from "lottie-react";
 const SectionA = () => {
   return (
     <div className="container xl:flex mt-20">
-      <div className=" items-center ">
+      <div className=" items-center w-full">
         <div className="mt-16">
-          <div className="relative 2xl:ms-[1rem] xl:ms-[5rem] animate-spin-slow justify-center ms-[3rem] sm:ms-[7rem] md:ms-[12rem] lg:ms-[20rem]">
+          <div className="relative 2xl:ms-[1rem] xl:ms-[5rem] animate-spin-slow justify-center ms-[3rem] sm:ms-[7rem] md:ms-[12rem] ">
             <svg
              
               viewBox="0 0 300 300"
@@ -45,14 +45,14 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute flex me-2 2xl:left-[15rem] xl:top-[28rem] xl:mb-10 top-[17rem] sm:top-[20rem] md:left-[6rem] lg:left-[14rem]">
+          <div className="absolute w-full flex me-2 2xl:left-[15rem] xl:top-[28rem] xl:mb-10 top-[17rem] sm:top-[20rem]">
             <img src={logo} alt="Logo" width="550" height="550" className="" />
           </div>
-          <div className="relative flex 2xl:-left-[1rem] xl:mt-16 xl:ms-14 mt-8 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14 lg:left-[9rem]">
+          <div className="relative flex 2xl:-left-[1rem] xl:mt-16 xl:ms-14 mt-8 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14  min-[1440px]:ms-[5rem]">
             <img src={text} alt="Logo" className="2xl:w-[1500px]" />
           </div>
         </div>
-        <div className="flex flex-row xl:gap-12 xl:ms-16 xl:mt-2 items-center ms-8 sm:ms-24 md:ms-44 lg:ms-[20rem] 2xl:ms-[2rem]">
+        <div className="flex flex-row xl:gap-12 xl:ms-16 xl:mt-2 items-center ms-8 sm:ms-24 md:ms-44  2xl:ms-[2rem] min-[1440px]:ms-[7vw]">
           <Nav className="items-center">
             <div className=" flex">
               <Nav.Link>
@@ -86,7 +86,7 @@ const SectionA = () => {
           </Nav>
         </div>
       </div>
-      <div className="xl:ms-[20rem]">
+      <div className="min-[1440px]:ms-[16rem]">
         <div className="xl:w-[41rem] xl:h-[41rem]">
           <Lottie animationData={dog_anima} loop={true} />
         </div>

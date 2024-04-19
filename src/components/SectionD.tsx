@@ -2,61 +2,61 @@ import bowl from "../assets/bowl.png";
 import "../style/SectionD.css";
 const SectionD = () => {
   return (
-    <div className="w-full justify-center flex">
-      <div className="mt-[5rem] px-10  flex gap-36 mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
+    <div className="w-full justify-center flex 2xl:mt-[7rem] min-[1440px]:mt-[5rem]">
+      <div className="mt-[5rem] 2xl:px-10 min-[1440px]:px-10  2xl:flex min-[1440px]:flex min-[1440px]:gap-24 2xl:gap-36 mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
         <div className="space-y-2">
           <div className="px-6 py-8">
-            <div className="font-bold text-3xl text-center text-[#24bc94]">Token</div>
+            <div className="font-bold 2xl:text-3xl min-[1440px]:text-3xl text-center text-[#24bc94]">Token</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center text-center space-y-2 text-lg ">
+          <p className="flex flex-col justify-center text-center space-y-2 2xl:text-lg ">
             <span>Total Suply</span>
             <span>One Billion</span>
           </p>
-          <p className="flex flex-col justify-center text-center space-y-2 text-lg">
+          <p className="flex flex-col justify-center text-center space-y-2 2xl:text-lg">
             <span>Tax</span>
             <span>0/0</span>
           </p>
-          <p className="flex flex-col justify-center text-center text-lg">
+          <p className="flex flex-col justify-center text-center 2xl:text-lg">
             {/* <span>Router</span> */}
             <span>Uniswap V3</span>
           </p>
         </div>
         <div className="space-y-2 pb-7">
           <div className="px-6 py-8">
-            <div className="font-bold text-3xl text-center text-[#24bc94] ">Trust</div>
+            <div className="font-bold 2xl:text-3xl min-[1440px]:text-3xl text-center text-[#24bc94] ">Trust</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center  text-center space-y-2 text-lg">
+          <p className="flex flex-col justify-center  text-center space-y-2 2xl:text-lg">
             <span>Community driven, because</span>
             <span>your voice matters</span>
           </p>
-          <p className="flex flex-col justify-center text-center  space-y-2 text-lg">
+          <p className="flex flex-col justify-center text-center  space-y-2 2xl:text-lg">
             <span>No false promises, just pure</span>
             <span>transparency and honesty</span>
           </p>
-          <p className="flex flex-col justify-center text-center text-lg">
+          <p className="flex flex-col justify-center text-center 2xl:text-lg">
             <span>Devotion to the meme</span>
           </p>
         </div>
         <div className="space-y-2">
           <div className="px-6 py-8">
-            <div className="font-bold text-3xl text-center text-[#24bc94]">Security</div>
+            <div className="font-bold 2xl:text-3xl min-[1440px]:text-3xl text-center text-[#24bc94]">Security</div>
           </div>
           <div className="flex justify-center items-center mb-3">
             <img src={bowl} alt="Logo" width="80" height="80" className="" />
           </div>
-          <p className="flex flex-col justify-center text-center text-lg">
+          <p className="flex flex-col justify-center text-center 2xl:text-lg">
             <span>Contract renounced</span>
           </p>
-          <p className="flex flex-col justify-center text-center text-lg">
+          <p className="flex flex-col justify-center text-center 2xl:text-lg">
             <span>Liquidity locked</span>
           </p>
-          <p className="flex flex-col justify-center text-center text-lg">
+          <p className="flex flex-col justify-center text-center 2xl:text-lg">
             <span>No presale or ICO</span>
           </p>
         </div>

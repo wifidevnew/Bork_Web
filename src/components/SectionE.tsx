@@ -16,35 +16,41 @@ const SectionE = () => {
       const scrollY = window.scrollY;
       const rotationAngle = scrollY * 0.5; 
   
-      // Mengonversi NodeList menjadi NodeListOf<HTMLElement>
+     
       const boneElements = document.querySelectorAll('.rotate-bone') as NodeListOf<HTMLElement>;
   
-      // Mengatur transformasi CSS pada setiap elemen tulang
+    
       boneElements.forEach(bone => {
         bone.style.transform = `rotate(${rotationAngle}deg)`;
       });
     };
   
-    // Menambahkan event listener untuk mendengarkan peristiwa scroll
     window.addEventListener('scroll', handleScroll);
   
-    // Membersihkan event listener saat komponen dilepas
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []); // Menjalankan efek hanya sekali saat komponen dimuat
+  }, []);
   
 
   return (
-    <div className="justify-center xl:mt-[18rem] mt-[6rem] 2xl:mt-[11rem]">
+    <div className="justify-center xl:mt-[18rem] mt-[6rem] 2xl:mt-[11rem] min-[1440px]:mt-[9rem]">
       <div ref={ref}>
         <div>
-        <div className="fade-in flex w-full justify-center absolute right-[18rem]">
-          <img src={dog} alt="Logo" className="w-20 xl:w-36 h-auto mt-10 md:mt-20 md:w-28 ms-6 " />
+        <div className="fade-in flex w-full justify-center absolute 2xl:right-[18rem] right-[7rem] items-center bottom-[15rem] min-[1440px]:bottom-[48rem] min-[1440px]:right-[14rem]">
+          <img src={dog} alt="Logo" className="2xl:w-20 xl:w-36 h-auto 2xl:mt-10 md:mt-20 md:w-28 2xl:ms-6 w-10" />
         </div>
           <div
-            className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh]`}
+            className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh] min-[1440px]:bottom-[50rem]`}
           >
+             <div>
+              <img
+                src={how}
+                alt="Logo"
+                className={`fade-in w-40 xl:w-80 h-auto sm:w-48 lg:w-60`}
+              />
+            </div>
             {/* <div className="rotate-12 transform origin-center fade-in">
               <img
                 src={bone}
@@ -52,13 +58,7 @@ const SectionE = () => {
                 className="fade-in w-5 xl:w-16 h-auto sm:w-10 lg:w-14 2xl:w-12"
               />
             </div> */}
-            <div>
-              <img
-                src={how}
-                alt="Logo"
-                className={`fade-in w-40 xl:w-80 h-auto sm:w-48 lg:w-60 ${inView ? 'fade-in' : ''}`}
-              />
-            </div>
+           
             {/* <div className="-rotate-45 transform origin-center">
               <img
                 src={bone}
@@ -67,7 +67,7 @@ const SectionE = () => {
               />
             </div> */}
           </div>
-          <div className="w-full absolute flex flex-row items-center justify-center gap-32 2xl:bottom-[40vh]">
+          <div className="w-full absolute flex flex-row items-center justify-center 2xl:gap-32 min-[1440px]:gap-20 gap-7 2xl:bottom-[40vh] bottom-[14vh] min-[1440px]:bottom-[32vh]">
             <div className="rotate-12 transform origin-center fade-in">
               <img
                 src={bone}
@@ -102,7 +102,7 @@ const SectionE = () => {
             </div>
           </div>
           <div
-            className={`w-full absolute flex justify-center bottom-[20vh]`}
+            className={`w-full absolute flex justify-center 2xl:bottom-[20vh] bottom-[7vh]`}
           >
             <img
               src={bone}
