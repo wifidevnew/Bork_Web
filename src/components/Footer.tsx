@@ -22,14 +22,14 @@ const FooterGlobal = () => {
           <img
             src={tele}
             alt="Logo"
-            className="w-9 h-auto"
+            className="w-7 h-auto"
           />
         </Nav.Link>
         <Nav.Link href="#features">
           <img
             src={twit}
             alt="Logo"
-            className="w-9 h-auto"
+            className="w-7 h-auto"
           />
         </Nav.Link>
       </Nav>

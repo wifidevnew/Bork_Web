@@ -67,7 +67,7 @@ const SectionB: React.FC = () => {
           <div className="">
             <img src={text1} alt="Logo" className={`w-20 xl:w-60 h-auto`} />
           </div>
-          <div className={`rounded-xl absolute flex w-[30vw] left-[10px] 2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-12 2xl:right-[50vw]  2xl:top-[1vh] -top-8`}>
+          <div className={`rounded-xl absolute flex w-[30vw] right-[15rem]  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-12 2xl:right-[58rem]  2xl:top-[1vh] -top-8`}>
             {/* <img
               src={cloud}
               alt="Logo"
@@ -100,7 +100,7 @@ const SectionB: React.FC = () => {
               <source src={video3} type="video/mp4"/>
             </video>
           </div>
-          <div className={`rounded-xl absolute flex w-[30vw] right-[10px] 2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12 2xl:right-[48vw]  2xl:top-[34vh] top-[10rem]`}>
+          <div className={`rounded-xl absolute flex w-[30vw] right-[10px] 2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12 2xl:right-[48vw]  2xl:top-[36vh] top-[10rem]`}>
             {/* <img
               src={cloud}
               alt="Logo"
@@ -117,7 +117,7 @@ const SectionB: React.FC = () => {
             <img
               src={text2}
               alt="Logo"
-              className="w-[50rem] h-auto"
+              className="w-[50rem] 2xl:w-[62rem] h-auto"
             />
           </div>
          

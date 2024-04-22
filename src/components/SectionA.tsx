@@ -13,7 +13,7 @@ const SectionA = () => {
     <div className="container xl:flex mt-20">
       <div className=" items-center w-full">
         <div className="mt-16">
-          <div className="relative 2xl:ms-[1rem] xl:ms-[5rem] animate-spin-slow justify-center ms-[11vw] sm:ms-[7rem] md:ms-[12rem] ">
+          <div className="relative 2xl:ms-[1rem] xl:ms-[5rem] animate-spin-slow justify-center ms-[3rem] sm:ms-[7rem] md:ms-[12rem] mt-[4rem] ">
             <svg
              
               viewBox="0 0 300 300"
@@ -45,10 +45,10 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute flex left-5  2xl:left-[15rem] xl:top-[28rem] xl:mb-10 top-[17rem] sm:top-[20rem]">
-            <img src={logo} alt="Logo" className="w-[300px] h-auto" />
+          <div className="absolute flex left-8  2xl:left-[17rem] xl:top-[28rem] xl:mb-10 top-[17rem] sm:top-[20rem]">
+            <img src={logo} alt="Logo" className="w-[300px] 2xl:w-[500px] h-auto" />
           </div>
-          <div className="relative flex xl:mt-16 xl:ms-14 mt-8 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14 ">
+          <div className="relative flex xl:mt-16 xl:ms-14 mt-8 sm:mt-20 sm:ms-16 md:ms-36 md:mt-14 2xl:mt-[30px] ">
             <img src={text} alt="Logo" className="2xl:w-[1500px] w-[30rem] h-auto" />
           </div>
         </div>
@@ -87,7 +87,7 @@ const SectionA = () => {
         </div>
       </div>
       <div className=" w-full  ">
-        <div className="xl:w-[41rem] xl:h-[41rem] 2xl:ms-[20rem] mt-16 ">
+        <div className="xl:w-[41rem] xl:h-[41rem] 2xl:ms-[20rem] ">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
         <div className="absolute 2xl:right-[21rem] xl:top-[40rem] xl:right-[12rem] top-[32rem] right-[1rem] sm:right-[8rem] sm:top-[42rem] md:top-[44rem] lg:right-[15rem] lg:top-[47rem]">

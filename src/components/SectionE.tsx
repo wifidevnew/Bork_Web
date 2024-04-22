@@ -35,7 +35,7 @@ const SectionE = () => {
   
 
   return (
-    <div className="justify-center xl:mt-[18rem] mt-[3rem] 2xl:mt-[11rem]">
+    <div className="justify-center xl:mt-[18rem] mt-[3rem] 2xl:mt-[9rem]">
       <div ref={ref}>
         <div>
         <div className="fade-in flex w-full justify-center absolute 2xl:right-[18rem] right-[7rem] items-center bottom-[15rem] 2xl:bottom-[61rem] ">
