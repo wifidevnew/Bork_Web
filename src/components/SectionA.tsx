@@ -11,7 +11,7 @@ import Lottie from "lottie-react";
 const SectionA = () => {
   return (
     <div className="container xl:flex mt-20">
-      <div className=" items-center w-full">
+      <div className="mb-10 items-center w-full">
         <div className="mt-16">
           <div className="relative 2xl:ms-[1rem] xl:ms-[5rem] animate-spin-slow justify-center ms-[3rem] sm:ms-[7rem] md:ms-[12rem] mt-[4rem] ">
             <svg
