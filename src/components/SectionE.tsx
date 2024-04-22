@@ -42,7 +42,7 @@ const SectionE = () => {
           <img src={dog} alt="Logo" className="2xl:w-30 xl:w-36 h-auto 2xl:mt-10 md:mt-20 md:w-28 2xl:ms-6 w-10" />
         </div>
           <div
-            className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh] bottom-[35vh]`}
+            className={`flex w-full justify-center items-center  absolute 2xl:bottom-[106vh] bottom-[38vh]`}
           >
              <div>
               <img
