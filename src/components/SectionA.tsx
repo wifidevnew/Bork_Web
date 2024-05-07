@@ -44,21 +44,21 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute  items-center justify-center xl:top-[28rem] xl:mb-10 top-[17rem] sm:top-[20rem]">
+          <div className="absolute  items-center justify-center xl:top-[28rem]  top-[17rem] sm:top-[20rem] 2xl:mb-1">
             <img
               src={logo}
               alt="Logo"
               className="w-[300px] 2xl:w-[500px] h-auto"
             />
           </div>
-          <div className="absolute flex justify-center mt-[30vh] xl:mt-[52vh] sm:mt-[37vh]">
+          <div className="absolute flex justify-center mt-[30vh] 2xl:mt-[45vh] sm:mt-[37vh]">
             <img
               src={text}
               alt="Logo"
               className="w-[30rem] h-auto"
             />
           </div>
-          <div className="absolute flex-row xl:gap-12 items-center mt-[32vh] xl:mt-[56vh] sm:mt-[37vh]">
+          <div className="absolute flex-row xl:gap-12 items-center mt-[32vh] 2xl:mt-[47vh] sm:mt-[37vh]">
             <Nav className="items-center 2xl:gap-11 sm:mt-6">
               <div className="flex">
                 <Nav.Link>
@@ -97,7 +97,7 @@ const SectionA = () => {
         <div className="xl:w-[41rem] xl:h-[41rem] ">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
-        <div className="absolute top-10 right-0 sm:right-10 xl:top-20">
+        <div className="absolute top-10 right-0 sm:right-10 xl:top-20 2xl:mt-[43vh] 2xl:right-28">
           <svg
             viewBox="0 0 300 300"
             xmlns="http://www.w3.org/2000/svg"

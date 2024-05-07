@@ -66,7 +66,7 @@ const SectionB: React.FC = () => {
     <div className="xl:mt-20 2xl:mt-[7rem] flex-col justify-center flex relative">
         <div className=" bg-red-500 justify-between">
           <div
-            className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 -top-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12`}
+            className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 2xl:right-44 -top-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12`}
           >
             {/* <img
               src={cloud}
@@ -79,7 +79,7 @@ const SectionB: React.FC = () => {
             </video>
           </div>
           <div
-            className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 left-0 -top-10  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-12`}
+            className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-40 left-0 -top-10  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-12`}
           >
             {/* <img
               src={cloud}
@@ -92,7 +92,7 @@ const SectionB: React.FC = () => {
             </video>
           </div>
           <div
-            className={`rounded-xl absolute flex w-[30vw] md:right-12 -bottom-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12`}
+            className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-44 -bottom-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-0`}
           >
             {/* <img
               src={cloud}
@@ -105,7 +105,7 @@ const SectionB: React.FC = () => {
             </video>
           </div>
           <div
-            className={`rounded-xl absolute flex w-[30vw] md:left-12 -bottom-10 left-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-12`}
+            className={`rounded-xl absolute flex w-[30vw] md:left-12 2xl:left-44 -bottom-10 left-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center -rotate-12`}
           >
             {/* <img
               src={cloud}
