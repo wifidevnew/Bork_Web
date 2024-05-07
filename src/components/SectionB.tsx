@@ -63,10 +63,10 @@ const SectionB: React.FC = () => {
   }, [])
 
   return (
-    <div className="xl:mt-20 2xl:mt-[7rem] flex-col justify-center flex relative">
-        <div className=" bg-red-500 justify-between">
+    <div className="xl:mt-20 lg:mt-10 2xl:mt-[7rem] flex-col justify-center flex relative">
+        <div className="  justify-between">
           <div
-            className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 2xl:right-44 -top-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12`}
+            className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 lg:top-22  2xl:right-44 -top-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12`}
           >
             {/* <img
               src={cloud}
@@ -117,14 +117,13 @@ const SectionB: React.FC = () => {
               <source src={video4} type="video/mp4" />
             </video>
           </div>
-    
         </div>
-        <div className="flex justify-center items-center relative ">
+        <div className="flex justify-center items-center relative md:top-[25vh] xl:top-[15vh]">
           <div className="relative">
-            <img src={text1} alt="Logo" className={`w-20 xl:w-60 h-auto`} />
+            <img src={text1} alt="Logo" className={`w-20 xl:w-60 h-auto md:w-32`} />
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center md:mt-[27vh] xl:mt-[18vh]">
           <div className={`relative`}>
             <img
               src={text2}
