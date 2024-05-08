@@ -10,7 +10,7 @@ import Lottie from "lottie-react"
 
 const SectionA = () => {
   return (
-    <div className="container xl:flex mt-20">
+    <div className="container xl:flex mt-20 lg:flex lg:items-center ">
       <div className="mb-10 items-center w-full">
         <div className="mt-16 justify-center flex">
           <div className=" animate-spin-slow justify-center flex ">
@@ -44,21 +44,21 @@ const SectionA = () => {
               </g>
             </svg>
           </div>
-          <div className="absolute  items-center justify-center xl:top-[28rem]  top-[17rem] sm:top-[20rem] 2xl:mb-1">
+          <div className="absolute  items-center justify-center xl:top-[65vh] md:top-[47vh] lg:top-[55vh] 2xl:top-[55vh] top-[17rem] sm:top-[17rem] 2xl:mb-1">
             <img
               src={logo}
               alt="Logo"
               className="w-[300px] 2xl:w-[500px] h-auto"
             />
           </div>
-          <div className="absolute flex justify-center mt-[33vh] 2xl:mt-[45vh] sm:mt-[37vh]">
+          <div className="absolute flex justify-center mt-[39vh] lg:mt-[60vh] 2xl:mt-[30vh] sm:top-[21vh] md:top-[26vh] lg:top-[14vh] xl:top-[45vh]">
             <img
               src={text}
               alt="Logo"
-              className="w-[30rem] h-auto"
+              className="w-[30rem] h-auto xl:w-[40rem]"
             />
           </div>
-          <div className="absolute flex-row xl:gap-12 items-center mt-[32vh] 2xl:mt-[47vh] sm:mt-[37vh]">
+          <div className="absolute flex-row xl:gap-12 items-center mt-[40vh] md:top-[30vh] lg:top-[37vh] xl:top-[45vh] 2xl:mt-[32vh] sm:mt-[37vh]">
             <Nav className="items-center 2xl:gap-11 sm:mt-6">
               <div className="flex">
                 <Nav.Link>
@@ -93,11 +93,11 @@ const SectionA = () => {
           </div>
         </div>
       </div>
-      <div className="relative sm:mt-24 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0">
-        <div className="xl:w-[41rem] xl:h-[41rem] ">
+      <div className="relative sm:mt-16 md:top-[5vh] lg:mt-0 xl:mt-0 2xl:mt-0 justify-center flex">
+        <div className="xl:w-[40rem] xl:h-[36rem] sm:w-[32rem] sm:h-[28rem] lg:w-[22rem] lg:h-[20rem] ">
           <Lottie animationData={dog_anima} loop={true} />
         </div>
-        <div className="absolute top-10 right-0 sm:right-10 xl:top-20 2xl:mt-[43vh] 2xl:right-28">
+        <div className="absolute top-10 right-0 sm:right-10 xl:top-32 2xl:mt-[38vh] 2xl:right-28 lg:top-[40vh] ">
           <svg
             viewBox="0 0 300 300"
             xmlns="http://www.w3.org/2000/svg"
