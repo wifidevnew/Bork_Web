@@ -93,7 +93,7 @@ const SectionA = () => {
           </div>
         </div>
       </div>
-      <div className="relative sm:mt-16 md:top-[5vh] lg:mt-0 xl:mt-0 2xl:mt-0 justify-center flex">
+      <div className="relative sm:mt-16 md:top-[5vh] lg:mt-0 xl:mt-0 2xl:mt-0 justify-center flex mt-20">
         <div className="xl:w-[40rem] xl:h-[36rem] sm:w-[32rem] sm:h-[28rem] lg:w-[22rem] lg:h-[20rem] ">
           <Lottie animationData={dog_anima} loop={true} />
         </div>

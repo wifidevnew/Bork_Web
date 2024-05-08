@@ -3,7 +3,7 @@ import "../style/SectionD.css";
 const SectionD = () => {
   return (
     <div className="w-full justify-center flex 2xl:mt-[10rem] mt-[4rem]">
-      <div className="mt-[1rem] 2xl:px-10 mb-10 px-4 lg:flex xl:flex 2xl:flex  2xl:gap-36 lg:gap-20  mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent hover:scale-110 transition-transform duration-300">
+      <div className="mt-[1rem] 2xl:px-10 mb-10 px-4 lg:flex xl:flex 2xl:flex  2xl:gap-36 lg:gap-20  mx-auto rounded-3xl border-5 border-solid border-white bg-gradient-to-r from-slate-800 to-transparent">
         <div className="space-y-2">
           <div className="px-6 py-8">
             <div className="font-bold 2xl:text-3xl lg:text-3xl xl:text-3xl  text-center text-[#24bc94]">Token</div>
@@ -24,7 +24,7 @@ const SectionD = () => {
             <span>Uniswap V3</span>
           </p>
         </div>
-        <div className="space-y-2 pb-7">
+        <div className="space-y-2">
           <div className="px-6 py-8">
             <div className="font-bold 2xl:text-3xl lg:text-3xl xl:text-3xl  text-center text-[#24bc94] ">Trust</div>
           </div>

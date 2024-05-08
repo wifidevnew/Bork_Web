@@ -63,7 +63,7 @@ const SectionB: React.FC = () => {
   }, [])
 
   return (
-    <div className="xl:mt-20 lg:mt-10 2xl:mt-[25vh] flex-col justify-center flex relative">
+    <div className="xl:mt-20 lg:mt-10 2xl:mt-[25vh] mt-5 flex-col justify-center flex relative">
         <div className="  justify-between">
           <div
             className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 lg:top-22  2xl:right-44 2xl:top-32 -top-10 right-0  2xl:w-[350px] h-auto border-4 border-[#24bc94] justify-center rotate-12`}
