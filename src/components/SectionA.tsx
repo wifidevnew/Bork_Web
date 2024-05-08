@@ -51,7 +51,7 @@ const SectionA = () => {
               className="w-[300px] 2xl:w-[500px] h-auto"
             />
           </div>
-          <div className="absolute flex justify-center mt-[30vh] 2xl:mt-[45vh] sm:mt-[37vh]">
+          <div className="absolute flex justify-center mt-[33vh] 2xl:mt-[45vh] sm:mt-[37vh]">
             <img
               src={text}
               alt="Logo"
