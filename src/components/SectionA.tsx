@@ -51,14 +51,14 @@ const SectionA = () => {
               className="w-[300px] 2xl:w-[500px] h-auto"
             />
           </div>
-          <div className="absolute flex justify-center mt-[31vh] lg:mt-[60vh] 2xl:mt-[30vh] sm:top-[21vh] md:top-[26vh] lg:top-[14vh] xl:top-[45vh]">
+          <div className="absolute flex justify-center mt-[16rem] lg:mt-[60vh] 2xl:mt-[30vh] sm:top-[21vh] md:top-[26vh] lg:top-[14vh] xl:top-[45vh]">
             <img
               src={text}
               alt="Logo"
               className="w-[30rem] h-auto xl:w-[40rem]"
             />
           </div>
-          <div className="absolute flex-row xl:gap-12 items-center mt-[32vh] md:top-[30vh] lg:top-[37vh] xl:top-[45vh] 2xl:mt-[32vh] sm:mt-[37vh]">
+          <div className="absolute flex-row xl:gap-12 items-center mt-[17rem] md:top-[30vh] lg:top-[37vh] xl:top-[45vh] 2xl:mt-[32vh] sm:mt-[37vh]">
             <Nav className="items-center 2xl:gap-11 sm:mt-6">
               <div className="flex">
                 <Nav.Link>

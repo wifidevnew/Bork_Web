@@ -38,11 +38,11 @@ const SectionE = () => {
     <div className="justify-center xl:mt-[18rem] mt-[3rem] 2xl:mt-[9rem]">
       <div ref={ref}>
         <div>
-        <div className="fade-in flex w-full justify-center absolute sm:bottom-[54vh] lg:bottom-[80vh] 2xl:right-[18rem] right-[7rem] items-center bottom-[15rem] 2xl:bottom-[61rem] ">
+        <div className="fade-in flex w-full justify-center absolute sm:bottom-[54vh] lg:bottom-[80vh] 2xl:right-[18rem] right-[7rem] items-center bottom-[13rem] 2xl:bottom-[61rem] ">
           <img src={dog} alt="Logo" className="2xl:w-30 xl:w-36 h-auto  md:w-28 2xl:ms-6 w-10 sm:w-20" />
         </div>
           <div
-            className={`flex w-full justify-center items-center sm:bottom-[67vh] lg:bottom-[100vh]  absolute 2xl:bottom-[106vh] bottom-[38vh]`}
+            className={`flex w-full justify-center items-center sm:bottom-[67vh] lg:bottom-[100vh]  absolute 2xl:bottom-[106vh] bottom-[15rem]`}
           >
              <div>
               <img
