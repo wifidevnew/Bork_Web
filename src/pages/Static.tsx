@@ -15,7 +15,7 @@ const Static = () => {
       </div>
       <div>
         <SectionA />
-        <div className="mt-44">
+        <div className="mt-48">
           <SectionB />
         </div>
         <SectionC />
@@ -24,7 +24,7 @@ const Static = () => {
         </div>
         <SectionE />
       </div>
-      <div className="bg-[#b7d7fd] z-50">
+      <div className="bg-[#5a8c03] z-50">
         <FooterGlobal />
       </div>
     </div>

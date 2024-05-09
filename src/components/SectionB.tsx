@@ -66,7 +66,7 @@ const SectionB: React.FC = () => {
     <div className="xl:mt-20 lg:mt-10 2xl:mt-[40vh] mt-5 flex-col justify-center flex relative">
       <div className="  justify-between ">
         <div
-          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 lg:top-22  2xl:right-44 2xl:top-1 -top-10 right-0  2xl:w-[450px] h-auto justify-center rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 lg:top-22  2xl:right-96 2xl:-top-10 -top-10 right-0  2xl:w-[470px] h-auto justify-center rotate-12`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -82,7 +82,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-44 2xl:top-1 left-0 -top-10  2xl:w-[450px] h-auto justify-center -rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-96 2xl:-top-10 left-0 -top-10  2xl:w-[470px] h-auto justify-center -rotate-12`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -98,7 +98,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-48 -bottom-48 right-0  2xl:w-[450px] h-auto justify-center rotate-0`}
+          className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-96 -bottom-48 right-0  2xl:w-[470px] h-auto justify-center rotate-0`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -114,7 +114,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] md:left-12 2xl:left-48 -bottom-48 left-0  2xl:w-[450px] h-auto justify-center -rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] md:left-12 2xl:left-96 -bottom-48 left-0  2xl:w-[470px] h-auto justify-center rotate-12`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
