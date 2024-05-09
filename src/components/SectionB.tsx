@@ -66,23 +66,23 @@ const SectionB: React.FC = () => {
     <div className="xl:mt-20 lg:mt-10 2xl:mt-[40vh] mt-5 flex-col justify-center flex relative">
       <div className="  justify-between ">
         <div
-          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 lg:top-22  2xl:right-72 2xl:top-12 -top-10 right-0  2xl:w-[350px] h-auto justify-center rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:right-12 md:top-16 lg:top-22  2xl:right-44 2xl:top-1 -top-10 right-0  2xl:w-[450px] h-auto justify-center rotate-12`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
               <video
-                className="w-full rounded-3xl"
+                className=" rounded-3xl"
                 ref={videoRef}
                 autoPlay
                 controls
               >
-                <source src={video1} type="video/mp4" className="w-[500px]"/>
+                <source src={video1} type="video/mp4"/>
               </video>
             </div>
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-72 2xl:top-12 left-0 -top-10  2xl:w-[350px] h-auto justify-center -rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-44 2xl:top-1 left-0 -top-10  2xl:w-[450px] h-auto justify-center -rotate-12`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -98,7 +98,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-64 -bottom-36 right-0  2xl:w-[350px] h-auto justify-center rotate-0`}
+          className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-48 -bottom-48 right-0  2xl:w-[450px] h-auto justify-center rotate-0`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -114,7 +114,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] md:left-12 2xl:left-64 -bottom-36 left-0  2xl:w-[350px] h-auto justify-center -rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] md:left-12 2xl:left-48 -bottom-48 left-0  2xl:w-[450px] h-auto justify-center -rotate-12`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -131,8 +131,8 @@ const SectionB: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="rounded-3xl  bg-[#d0fcfc] justify-center flex items-center mt-[10rem] p-16 w-[50%] ">
-          <div className="rounded-3xl  bg-[#e8fcfc] p-1 justify-center">
+        <div className="rounded-3xl  bg-[#d0fcfc] justify-center flex items-center mt-[10rem] p-16 w-[60%] ">
+          <div className="rounded-3xl  bg-[#e8fcfc] py-9 justify-center">
             <div className="flex justify-center items-center -mb-36">
               <img
                 src={text1}
