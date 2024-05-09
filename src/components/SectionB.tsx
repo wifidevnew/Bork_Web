@@ -82,7 +82,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-96 2xl:-top-10 left-0 -top-10  2xl:w-[470px] h-auto justify-center -rotate-12`}
+          className={`rounded-xl absolute flex w-[30vw] sm:-top-20 md:left-12 md:top-16 2xl:left-96 2xl:-top-10 left-0 -top-10  2xl:w-[470px] h-auto justify-center -rotate-6`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
@@ -98,7 +98,7 @@ const SectionB: React.FC = () => {
           </div>
         </div>
         <div
-          className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-96 -bottom-48 right-0  2xl:w-[470px] h-auto justify-center rotate-0`}
+          className={`rounded-xl absolute flex w-[30vw] md:right-12 2xl:right-96 -bottom-48 right-0  2xl:w-[470px] h-auto justify-center -rotate-6`}
         >
           <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-2">
             <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-2">
