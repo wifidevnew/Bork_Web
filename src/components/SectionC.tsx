@@ -49,20 +49,20 @@ const SectionC = () => {
       </div>
       <div className="flex justify-between ">
         <div className="absolute right-0 top-0">
-          <Parallax speed={-10}>
-            <img src={cld} alt="" className="w-52" />
-          </Parallax>
+          {/* <Parallax> */}
+          <img src={cld} alt="" className="w-52" />
+          {/* </Parallax> */}
         </div>
         <div className="absolute left-0 top-0">
-          <Parallax speed={-10}>
-            <img src={cld1} alt="" className="w-52" />
-          </Parallax>
+          {/* <Parallax> */}
+          <img src={cld1} alt="" className="w-52" />
+          {/* </Parallax> */}
         </div>
       </div>
-      <div className="absolute top-28">
-        <Parallax speed={20}>
-          <img src={cldlong} alt="" />
-        </Parallax>
+      <div className="absolute top-32">
+        {/* <Parallax> */}
+        <img src={cldlong} alt="" />
+        {/* </Parallax> */}
       </div>
     </div>
   );

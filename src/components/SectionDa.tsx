@@ -5,7 +5,7 @@ import cld from "../assets/cld1.png";
 const SectionDa = () => {
   return (
     <div className="container relative">
-      <div className="w-full justify-center flex mt-[30rem] mb-[15rem]">
+      <div className="w-full justify-center flex mt-[23rem] mb-[15rem]">
         <div className="rounded-3xl  bg-[#d0fcfc] p-16 flex items-center gap-4">
           <div className="rounded-3xl  bg-[#e8fcfc] p-10 items-center gap-24">
             <div className="">

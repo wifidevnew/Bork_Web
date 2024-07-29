@@ -4,6 +4,7 @@ import bone from "../assets/Bone (2).svg";
 import how from "../assets/How to buy.svg";
 import dog from "../assets/BorkDogsmall.svg";
 import bowl from "../assets/borkpink.png";
+import text from "../assets/Thegoodestboy.svg";
 import "../style/SectionD.css";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -38,14 +39,18 @@ const SectionE = () => {
       <div ref={ref}>
         <div>
           <div className="justify-center flex">
+            <div className="absolute -top-72 flex flex-col justify-center items-center">
+              <img src={how} alt="Logo" className={`fade-in w-40 xl:w-80 h-auto sm:w-48 lg:w-60`} />
+              <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" />
+            </div>
             <div className="fade-in flex  justify-between absolute bottom-0 top-1 items-center z-10">
               <Parallax speed={-5} className="flex gap-20 items-center">
                 <div>
                   <img src={dog} alt="Logo" className="2xl:w-28 xl:w-36 h-auto  md:w-28  w-10 sm:w-20" />
                 </div>
-                <div>
+                {/* <div>
                   <img src={how} alt="Logo" className={`fade-in w-40 xl:w-80 h-auto sm:w-48 lg:w-60`} />
-                </div>
+                </div> */}
                 <div>
                   <img src={bowl} alt="Logo" className="2xl:w-28 xl:w-36 h-auto  md:w-28  w-10 sm:w-20" />
                 </div>

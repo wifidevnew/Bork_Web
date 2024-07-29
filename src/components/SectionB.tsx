@@ -85,13 +85,13 @@ const SectionB: React.FC = () => {
   }, []);
 
   return (
-    <div className="container relative">
-      <div className={`w-full flex z-30 top-20 justify-evenly mb-10 `}>
-        <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-        <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-        <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+    <div className="container relative -top-24 lg:top-0">
+      <div className={`w-full flex z-30 lg:top-20 justify-between mb-10 `}>
+        <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+        <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+        <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
       </div>
-      <div className="justify-center container grid grid-cols-2 gap-3">
+      <div className="justify-center container grid lg:grid-cols-2 gap-3">
         <div className=" justify-center flex">
           <div className="rounded-[35px]  bg-[#e8fcfc] p-4 justify-center">
             {/* <div className=" justify-center items-center flex">
@@ -102,7 +102,7 @@ const SectionB: React.FC = () => {
               <img src={text2} alt="Logo" className="w-[50rem] 2xl:w-[75rem] h-auto" />
             </div>
           </div> */}
-            <h2 className="text-blue-900 text-center text-4xl">
+            <h2 className="text-blue-900 text-center lg:text-4xl">
               Welcome to the one and only Gabe the Dog- the internet's most beloved borker! Whether you're a longtime fan or gst discovering the wonders of Gabe's borks, you're in for a treat! From his iconic YouTube videos to his countless
               memes, Gabe's legacy continues to brighten the days of people all around the globe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ea est facere culpa sunt? Sit cum aliquid in quas dolor veniam accusamus
               quibusdam

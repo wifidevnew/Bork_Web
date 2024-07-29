@@ -14,7 +14,7 @@ import cld1 from "../assets/cld1.png";
 const SectionA = () => {
   return (
     <div className="relative">
-      <div className="container pt-[5.5rem] grid grid-cols-2 gap-14">
+      <div className="container pt-[5.5rem] grid lg:grid-cols-2 gap-14">
         <div className="justify-center flex flex-col items-center relative">
           {/* <div className=" animate-spin-slow justify-center flex ">
             <svg
@@ -62,7 +62,7 @@ const SectionA = () => {
             <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" />
           </div>
           <div className="mt-10 z-10">
-            <Nav className="items-center gap-10">
+            <Nav className="items-center lg:gap-10">
               <div className="flex">
                 <Nav.Link>
                   <img src={telegram} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-10 h-auto" />
@@ -84,7 +84,7 @@ const SectionA = () => {
         <div className="justify-center flex relative">
           <Lottie animationData={dog_anima} loop={true} />
           <div className="absolute right-0 top-0">
-            <img src={cld1} alt="" className="w-[10rem]" />
+            <img src={cld1} alt="" className="lg:w-[10rem] w-[5rem]" />
           </div>
 
           {/* <div className="absolute top-10 right-0 sm:right-10 xl:top-32 2xl:mt-[38vh] 2xl:right-28 lg:top-[40vh] ">
