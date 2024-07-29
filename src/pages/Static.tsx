@@ -1,3 +1,4 @@
+import CloudLong from "../components/CloudLong";
 import FooterGlobal from "../components/Footer";
 import NavbarGlobal from "../components/Navbar";
 import SectionA from "../components/SectionA";
@@ -9,22 +10,34 @@ import SectionE from "../components/SectionE";
 
 const Static = () => {
   return (
-    <div className="justify-center bg-[url()]">
-      <div className="sticky top-0 z-50 bg-[#0d232d]">
-        <NavbarGlobal />
-      </div>
-      <div>
-        <SectionA />
-        <div className="mt-48">
-          <SectionB />
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow">
+        <div className="sticky top-0 z-50 bg-transparent backdrop-blur-xl bg-opacity-20">
+          <NavbarGlobal />
         </div>
-        <SectionC />
-        <div className="border-10 border-solid border-green-500">
-          <SectionDa />
+        <div>
+          <div className="relative">
+            <SectionA />
+            <div className="absolute top-72">{/* <CloudLong /> */}</div>
+          </div>
+          <div className="mt-40">
+            <SectionB />
+          </div>
+          <div className="relative">
+            <div className="z-20">
+              <SectionC />
+            </div>
+            <div className="absolute z-0 -top-10">{/* <CloudLong /> */}</div>
+          </div>
+          <div className="border-10 mt-10 border-solid border-green-500">
+            <SectionDa />
+          </div>
+          <div className="pb-[55rem] pt-40">
+            <SectionE />
+          </div>
         </div>
-        <SectionE />
       </div>
-      <div className="bg-[#5a8c03] z-50">
+      <div className="bg-[#5a8c03] z-50 bottom-0">
         <FooterGlobal />
       </div>
     </div>

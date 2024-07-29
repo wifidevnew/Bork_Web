@@ -1,5 +1,8 @@
 import moon from "../assets/MoonNight.svg";
-import cloud from "../assets/Night cloud.svg";
+import cloud from "../assets/cld1.png";
+import cld from "../assets/awan4.png";
+import cld1 from "../assets/awan2.png";
+import cldlong from "../assets/cloudlong.png";
 // import dog from "../assets/BorkDogsmall.svg";
 import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
@@ -19,38 +22,36 @@ const SectionC = () => {
     }
   }, [inView, cloudAnimationStarted]);
   return (
-    <div className="xl:mt-[20rem] mt-[5rem] justify-center flex 2xl:mt-[20rem] w-full">
-      <div ref={ref}>
-        <div className="flex justify-center">
-          <div className="absolute  fade-in animate-spin" style={{ animationDuration: "50s" }}>
-            <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
-          </div>
-          <div className="relative flex mt-10 md:mt-16 ">
-            <div className={`${cloudAnimationStarted ? 'animate-cloud' : ''}`}>
-              <img
-                src={cloud}
-                alt="Logo"
-                className={` mt-10 w-36 xl:w-52 h-auto md:w-40 animate-leftright `}
-                style={{ animationDelay: "6s" }}
-              />
+    <div className="container relative">
+      <div className="mt-40 justify-center flex 2xl:mt-[15rem] w-full">
+        <div ref={ref}>
+          <div className="flex justify-center">
+            <div className="absolute  fade-in animate-spin" style={{ animationDuration: "50s" }}>
+              <img src={moon} alt="Logo" className="w-32 xl:w-40 sm:w-36 h-auto md:w-36" />
             </div>
-            <div className={` ${cloudAnimationStarted ? 'animate-clouda' : ''}`}>
-              <img
-                src={cloud}
-                alt="Logo"
-                className={`w-60 xl:w-80 h-auto animate-leftright`}
-                style={{ animationDelay: "6s" }}
-              />
+            <div className="relative flex mt-10 md:mt-16 ">
+              <div className={`${cloudAnimationStarted ? "animate-cloud" : ""}`}>
+                <img src={cloud} alt="Logo" className={` mt-10 w-36 xl:w-52 h-auto md:w-40 animate-leftright `} style={{ animationDelay: "6s" }} />
+              </div>
+              <div className={` ${cloudAnimationStarted ? "animate-clouda" : ""}`}>
+                <img src={cloud} alt="Logo" className={`w-60 xl:w-80 h-auto animate-leftright`} style={{ animationDelay: "6s" }} />
+              </div>
+            </div>
+            <div className={`absolute justify-center mt-10`}>
+              <img src={text} alt="Logo" className="w-60 xl:w-96 sm:w-80 h-auto md:w-96" />
             </div>
           </div>
-          <div className={`absolute justify-center mt-10`}>
-            <img src={text} alt="Logo" className="w-60 xl:w-96 sm:w-80 h-auto md:w-96" />
-          </div>
-        </div>
-        {/* <div className="fade-in">
+          {/* <div className="fade-in">
           <img src={dog} alt="Logo" className="w-20 xl:w-36 h-auto mt-10 md:mt-20 md:w-28 ms-6 " />
         </div> */}
-     
+        </div>
+      </div>
+      <div className="flex justify-between ">
+        <img src={cld} alt="" className="w-52 absolute right-0 top-0" />
+        <img src={cld1} alt="" className="w-52 absolute left-0 top-0" />
+      </div>
+      <div>
+        <img src={cldlong} alt="" />
       </div>
     </div>
   );
