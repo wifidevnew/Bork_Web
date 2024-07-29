@@ -1,5 +1,5 @@
 import wood from "../assets/wood.svg";
-import grass from "../assets/grass.svg";
+import grass from "../assets/valley.jpg";
 import bone from "../assets/Bone (2).svg";
 import how from "../assets/How to buy.svg";
 import dog from "../assets/BorkDogsmall.svg";
@@ -38,8 +38,8 @@ const SectionE = () => {
       <div ref={ref}>
         <div>
           <div className="justify-center flex">
-            <div className="fade-in flex w-[40%] justify-between absolute bottom-0 top-10 items-center z-10">
-              <Parallax speed={-10} className="flex gap-20 items-center">
+            <div className="fade-in flex w-[40%] justify-between absolute bottom-0 top-1 items-center z-10">
+              <Parallax speed={-5} className="flex gap-20 items-center">
                 <div>
                   <img src={dog} alt="Logo" className="2xl:w-28 xl:w-36 h-auto  md:w-28  w-10 sm:w-20" />
                 </div>
@@ -81,7 +81,7 @@ const SectionE = () => {
             <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
           </div>
 
-          <div className="flex justify-center absolute z-0">
+          <div className="flex justify-center absolute z-0 -top-80">
             <Parallax speed={-10}>
               <img src={grass} alt="Logo" className="w-screen" />
             </Parallax>

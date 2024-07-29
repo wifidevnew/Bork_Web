@@ -8,6 +8,7 @@ import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
+import { Parallax } from "react-scroll-parallax";
 
 const SectionC = () => {
   const { ref, inView } = useInView({
@@ -47,11 +48,21 @@ const SectionC = () => {
         </div>
       </div>
       <div className="flex justify-between ">
-        <img src={cld} alt="" className="w-52 absolute right-0 top-0" />
-        <img src={cld1} alt="" className="w-52 absolute left-0 top-0" />
+        <div className="absolute right-0 top-0">
+          <Parallax speed={-10}>
+            <img src={cld} alt="" className="w-52" />
+          </Parallax>
+        </div>
+        <div className="absolute left-0 top-0">
+          <Parallax speed={-10}>
+            <img src={cld1} alt="" className="w-52" />
+          </Parallax>
+        </div>
       </div>
-      <div>
-        <img src={cldlong} alt="" />
+      <div className="absolute top-28">
+        <Parallax speed={20}>
+          <img src={cldlong} alt="" />
+        </Parallax>
       </div>
     </div>
   );

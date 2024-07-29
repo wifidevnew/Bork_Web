@@ -10,6 +10,7 @@ import video4 from "../assets/4.mp4";
 // import cld1 from "../assets/awan2.png";
 // import cloud from "../assets/cloud.svg";
 import "../style/SectionB.css";
+import bone from "../assets/Bone (2).svg";
 
 const SectionB: React.FC = () => {
   const { inView } = useInView({
@@ -64,8 +65,32 @@ const SectionB: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const rotationAngle = scrollY * 0.5;
+
+      const boneElements = document.querySelectorAll(".rotate-bone") as NodeListOf<HTMLElement>;
+
+      boneElements.forEach((bone) => {
+        bone.style.transform = `rotate(${rotationAngle}deg)`;
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="container relative">
+      <div className={`w-full flex z-30 top-20 justify-evenly mb-10 `}>
+        <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+        <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+        <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+      </div>
       <div className="justify-center container grid grid-cols-2 gap-3">
         <div className=" justify-center flex">
           <div className="rounded-[35px]  bg-[#e8fcfc] p-4 justify-center">

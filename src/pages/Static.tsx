@@ -36,7 +36,7 @@ const Static = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#5a8c03] z-50 bottom-0">
+      <div className="bg-transparent backdrop-blur-xl bg-opacity-20 z-50 bottom-0">
         <FooterGlobal />
       </div>
     </div>
