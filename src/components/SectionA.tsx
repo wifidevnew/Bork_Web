@@ -8,7 +8,7 @@ import buy from "../assets/Buy.svg";
 import { Nav } from "react-bootstrap";
 import dog_anima from "../assets/doganima.json";
 import Lottie from "lottie-react";
-import cldlong from "../assets/cloudlong.png";
+// import cldlong from "../assets/cloudlong.png";
 import cld1 from "../assets/cld1.png";
 
 const SectionA = () => {

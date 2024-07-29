@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
-import text1 from "../assets/aboutsafemooncolour.svg";
-import text2 from "../assets/BorkParagraphTurqoise.svg";
-import video1 from "../assets/1.mp4";
-import video2 from "../assets/2.mp4";
+// import text1 from "../assets/aboutsafemooncolour.svg";
+// import text2 from "../assets/BorkParagraphTurqoise.svg";
+// import video1 from "../assets/1.mp4";
+// import video2 from "../assets/2.mp4";
 import video3 from "../assets/3.mp4";
 import video4 from "../assets/4.mp4";
-import cld from "../assets/awan4.png";
-import cld1 from "../assets/awan2.png";
+// import cld from "../assets/awan4.png";
+// import cld1 from "../assets/awan2.png";
 // import cloud from "../assets/cloud.svg";
 import "../style/SectionB.css";
 

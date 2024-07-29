@@ -1,4 +1,3 @@
-import CloudLong from "../components/CloudLong";
 import FooterGlobal from "../components/Footer";
 import NavbarGlobal from "../components/Navbar";
 import SectionA from "../components/SectionA";

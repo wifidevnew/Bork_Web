@@ -1,9 +1,9 @@
 import cloud from "../assets/cld1.png";
-const CloudLong = () => {
+const CloudShort = () => {
   return (
     <div>
       <img src={cloud} alt="" />
     </div>
   );
 };
-export default CloudLong;
+export default CloudShort;
