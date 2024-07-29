@@ -38,7 +38,7 @@ const SectionE = () => {
       <div ref={ref}>
         <div>
           <div className="justify-center flex">
-            <div className="fade-in flex w-[40%] justify-between absolute bottom-0 top-1 items-center z-10">
+            <div className="fade-in flex  justify-between absolute bottom-0 top-1 items-center z-10">
               <Parallax speed={-5} className="flex gap-20 items-center">
                 <div>
                   <img src={dog} alt="Logo" className="2xl:w-28 xl:w-36 h-auto  md:w-28  w-10 sm:w-20" />
