@@ -102,9 +102,9 @@ const SectionE = () => {
             </Parallax>
           </div>
           <div className="flex justify-center absolute z-20">
-            <Parallax speed={10} className="-bottom-2">
-              <img src={wood} alt="Logo" className="w-screen" />
-            </Parallax>
+            {/* <Parallax speed={10} className="-bottom-2"> */}
+            <img src={wood} alt="Logo" className="w-screen" />
+            {/* </Parallax> */}
           </div>
         </div>
       </div>

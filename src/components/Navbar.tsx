@@ -1,7 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/logo.svg";
-// import buy from "../assets/Buy.svg";
+import buy from "../assets/Buy.svg";
 function NavbarGlobal() {
   return (
     <>
@@ -21,9 +21,10 @@ function NavbarGlobal() {
                 Telegram
               </Nav.Link>
               <Nav.Link className="text-white hover:scale-110 transition-transform duration-300" href="#pricing">
-                <h2 className="text-[36px] " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                {/* <h2 className="lg:text-[36px] text-xs " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                   BUY NOW{" "}
-                </h2>
+                </h2> */}
+                <img src={buy} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-20 xl:w-40 h-auto sm:w-24 md:w-28 2xl:w-38" />
               </Nav.Link>
             </Nav>
           </div>
