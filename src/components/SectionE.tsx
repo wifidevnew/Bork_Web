@@ -40,7 +40,7 @@ const SectionE = () => {
         <div>
           <div className="justify-center flex">
             <div className="absolute -top-72 flex flex-col justify-center items-center">
-              <img src={how} alt="Logo" className={`fade-in w-40 xl:w-80 h-auto sm:w-48 lg:w-60`} />
+              <img src={how} alt="Logo" className={`fade-in w-40 xl:w-64 h-auto sm:w-48 lg:w-60`} />
               <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" />
             </div>
             <div className="fade-in flex  justify-between absolute bottom-0 top-1 items-center z-10">
