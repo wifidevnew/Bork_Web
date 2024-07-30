@@ -104,7 +104,7 @@ const SectionB: React.FC = () => {
   }, []);
 
   return (
-    <div className="container relative -top-24 lg:top-0">
+    <div className="container relative -top-36 lg:top-0">
       {showLargeItem && (
         <div className={`w-full justify-evenly flex z-30 lg:top-20 lg:justify-between items-center mb-10 `}>
           <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
