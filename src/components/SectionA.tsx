@@ -1,7 +1,7 @@
 // import moon from "../assets/MoonRock.svg";
 import logo from "../assets/logo.svg";
 // import text from "../assets/Thegoodestboy.svg";
-import gabe from "../assets/gabe.png";
+import gabe from "../assets/gabedog.png";
 import telegram from "../assets/Telegram (2).svg";
 import twitter from "../assets/TwitterVector (2).svg";
 // import buy from "../assets/Buy.svg";
@@ -14,7 +14,7 @@ import cld1 from "../assets/cld1.png";
 const SectionA = () => {
   return (
     <div className="relative">
-      <div className="container pt-[5.5rem] grid lg:grid-cols-2 gap-14">
+      <div className="container lg:pt-[5.5rem] pt-[2rem] grid lg:grid-cols-2 gap-14">
         <div className="justify-center flex flex-col items-center relative">
           {/* <div className=" animate-spin-slow justify-center flex ">
             <svg
@@ -60,11 +60,11 @@ const SectionA = () => {
           </div>
           <div className="flex justify-center z-10">
             {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
-            <h2 className="text-[36px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+            <h2 className="lg:text-[36px] text-center" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
               The Goodest Boy On The BlockChain{" "}
             </h2>
           </div>
-          <div className="mt-10 z-10">
+          <div className="lg:mt-10 z-10">
             <Nav className="items-center lg:gap-10">
               <div className="flex">
                 <Nav.Link>
@@ -79,7 +79,7 @@ const SectionA = () => {
               <div className="flex">
                 <Nav.Link>
                   {/* <img src={buy} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-20 xl:w-40 h-auto sm:w-24 md:w-28 2xl:w-38" /> */}
-                  <h2 className="text-[36px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h2 className="lg:text-[36px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     BUY NOW{" "}
                   </h2>
                 </Nav.Link>
@@ -87,7 +87,7 @@ const SectionA = () => {
             </Nav>
           </div>
         </div>
-        <div className="justify-center flex relative">
+        <div className="justify-center flex relative -mt-[25px]">
           <Lottie animationData={dog_anima} loop={true} />
           <div className="absolute right-0 top-0">
             <img src={cld1} alt="" className="lg:w-[10rem] w-[5rem]" />

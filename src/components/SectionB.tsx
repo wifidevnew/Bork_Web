@@ -14,6 +14,8 @@ import "../style/SectionB.css";
 import bone from "../assets/Bone (2).svg";
 
 const SectionB: React.FC = () => {
+  const [showSmallItem, setShowSmallItem] = useState(true);
+  const [showLargeItem, setShowLargeItem] = useState(false);
   const { inView } = useInView({
     threshold: 0.1,
   });
@@ -85,24 +87,59 @@ const SectionB: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      const isLgScreen = window.innerWidth >= 1024;
+      setShowSmallItem(!isLgScreen);
+      setShowLargeItem(isLgScreen);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="container relative -top-24 lg:top-0">
-      <div className={`w-full flex z-30 lg:top-20 justify-between items-center mb-10 `}>
-        <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-        <div>
-          <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "5px", WebkitTextStrokeColor: "black", color: "white" }}>
-            WOOF!{" "}
-          </h2>
+      {showLargeItem && (
+        <div className={`w-full justify-evenly flex z-30 lg:top-20 lg:justify-between items-center mb-10 `}>
+          <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+          <div>
+            <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "3px", WebkitTextStrokeColor: "black", color: "white" }}>
+              WOOF!{" "}
+            </h2>
+          </div>
+          <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+          <div>
+            <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "3px", WebkitTextStrokeColor: "black", color: "white" }}>
+              WOOF!{" "}
+            </h2>
+          </div>
+          <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
         </div>
-        <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-        <div>
-          <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "5px", WebkitTextStrokeColor: "black", color: "white" }}>
-            WOOF!{" "}
-          </h2>
+      )}
+      {showSmallItem && (
+        <div className={`w-full justify-evenly flex z-30 lg:top-20 lg:justify-between items-center mb-10 `}>
+          <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+          <div>
+            <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "black", color: "white" }}>
+              WOOF!{" "}
+            </h2>
+          </div>
+          <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+          <div>
+            <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "black", color: "white" }}>
+              WOOF!{" "}
+            </h2>
+          </div>
+          <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
         </div>
-        <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-      </div>
-      <div className="justify-center container grid lg:grid-cols-2 gap-3">
+      )}
+      <div className="-mt-[8px] justify-center container lg:space-y-0 space-y-[16px] grid lg:grid-cols-2 gap-3">
         <div className=" justify-center flex">
           <div className="rounded-[35px]  bg-[#e8fcfc] p-4 justify-center">
             {/* <div className=" justify-center items-center flex">
@@ -154,7 +191,7 @@ const SectionB: React.FC = () => {
           </div>
         </div> */}
           <div className={`rounded-xl 2xl:w-[600px] h-auto justify-center `}>
-            <div className="rounded-2xl  border-[2px] border-solid border-green-800  justify-center ">
+            <div className="rounded-2xl mb-[16px] lg:mb-0  border-[2px] border-solid border-green-800  justify-center ">
               <video className="w-full rounded-xl" ref={videoRef} autoPlay controls>
                 <source src={video3} type="video/mp4" />
               </video>

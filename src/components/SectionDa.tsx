@@ -1,25 +1,25 @@
 // import bowl from "../assets/bowlnew.png";
 import bone from "../assets/bone.png";
 import cld from "../assets/cld1.png";
-import gabe from "../assets/gabe.png";
+import gabe from "../assets/gabedog.png";
 import logo from "../assets/logo.svg";
 
 const SectionDa = () => {
   return (
     <div className="container relative">
-      <div className="w-full justify-center lg:flex mt-[23rem] mb-[15rem]">
+      <div className="w-full -mt-[22px] justify-center lg:flex lg:mt-[8rem] mb-[15rem]">
         <div className="rounded-3xl  bg-[#d0fcfc] lg:p-16 lg:flex items-center gap-4">
           <div className="rounded-3xl  bg-[#e8fcfc] lg:p-10 p-3 items-center gap-24">
             <div className="">
-              <div className="text-[#1c3c89] grid grid-cols-2 grid-rows-3 gap-2 ">
+              <div className="text-[#1c3c89] grid grid-cols-2 lg:gap-2 gap-1 ">
                 <div className="flex flex-col">
-                  <h1 className="-mb-2" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     BASE
                   </h1>
                   <span className="mt-0">Chain</span>
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 text-[26px] lg:text-balance" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     Renounced
                   </h1>
                   <span>Contract</span>

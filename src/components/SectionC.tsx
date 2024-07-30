@@ -2,7 +2,7 @@ import moon from "../assets/MoonNight.svg";
 import cloud from "../assets/cld1.png";
 import cld from "../assets/awan4.png";
 import cld1 from "../assets/awan2.png";
-import cldlong from "../assets/cloudlong.png";
+// import cldlong from "../assets/cloudlong.png";
 // import dog from "../assets/BorkDogsmall.svg";
 import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
@@ -24,7 +24,7 @@ const SectionC = () => {
   }, [inView, cloudAnimationStarted]);
   return (
     <div className="container relative">
-      <div className="mt-40 justify-center flex 2xl:mt-[15rem] w-full">
+      <div className="lg:mt-40 justify-center -mt-[63px] flex 2xl:mt-[15rem] w-full">
         <div ref={ref}>
           <div className="flex justify-center">
             <div className="absolute  fade-in animate-spin" style={{ animationDuration: "50s" }}>
@@ -61,7 +61,7 @@ const SectionC = () => {
       </div>
       <div className="absolute top-32">
         {/* <Parallax> */}
-        <img src={cldlong} alt="" />
+        {/* <img src={cldlong} alt="" /> */}
         {/* </Parallax> */}
       </div>
     </div>
