@@ -1,10 +1,10 @@
 // import moon from "../assets/MoonRock.svg";
 import logo from "../assets/logo.svg";
-import text from "../assets/Thegoodestboy.svg";
+// import text from "../assets/Thegoodestboy.svg";
 import gabe from "../assets/gabe.png";
 import telegram from "../assets/Telegram (2).svg";
 import twitter from "../assets/TwitterVector (2).svg";
-import buy from "../assets/Buy.svg";
+// import buy from "../assets/Buy.svg";
 import { Nav } from "react-bootstrap";
 import dog_anima from "../assets/doganima.json";
 import Lottie from "lottie-react";
@@ -59,7 +59,10 @@ const SectionA = () => {
             <img src={logo} alt="Logo" className="w-[300px] 2xl:w-[500px] h-auto" />
           </div>
           <div className="flex justify-center z-10">
-            <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" />
+            {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
+            <h2 className="text-[36px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+              The Goodest Boy On The BlockChain{" "}
+            </h2>
           </div>
           <div className="mt-10 z-10">
             <Nav className="items-center lg:gap-10">
@@ -75,7 +78,10 @@ const SectionA = () => {
               </div>
               <div className="flex">
                 <Nav.Link>
-                  <img src={buy} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-20 xl:w-40 h-auto sm:w-24 md:w-28 2xl:w-38" />
+                  {/* <img src={buy} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-20 xl:w-40 h-auto sm:w-24 md:w-28 2xl:w-38" /> */}
+                  <h2 className="text-[36px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                    BUY NOW{" "}
+                  </h2>
                 </Nav.Link>
               </div>
             </Nav>

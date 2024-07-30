@@ -13,44 +13,44 @@ const SectionDa = () => {
             <div className="">
               <div className="text-[#1c3c89] grid grid-cols-2 grid-rows-3 gap-2 ">
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 font-extrabold" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     BASE
                   </h1>
                   <span className="mt-0">Chain</span>
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 font-extrabold" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     Renounced
                   </h1>
                   <span>Contract</span>
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 font-extrabold" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     1B
                   </h1>
                   <span>Suply</span>
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 font-extrabold" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     LOCK
                   </h1>
                   <span>Liquidity</span>
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 font-extrabold" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     0/0
                   </h1>
                   <span>Tax</span>
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="-mb-2 font-extrabold" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h1 className="-mb-2 " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     $SKIC
                   </h1>
                   <span>Ticker</span>
                 </div>
               </div>
               <div className="text-[#1c3c89]">
-                <h1 className="-mb-2 font-extrabold mt-10" style={{ WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                <h1 className="-mb-2  mt-10" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                   Contract
                 </h1>
                 <span>0xe48C3A357Dc4153bAEf2B86B7fF0d91837477A51</span>

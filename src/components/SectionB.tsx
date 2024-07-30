@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
+// import dog from "../assets/BorkDogsmall.svg";
 // import text1 from "../assets/aboutsafemooncolour.svg";
 // import text2 from "../assets/BorkParagraphTurqoise.svg";
 // import video1 from "../assets/1.mp4";
@@ -86,9 +87,19 @@ const SectionB: React.FC = () => {
 
   return (
     <div className="container relative -top-24 lg:top-0">
-      <div className={`w-full flex z-30 lg:top-20 justify-between mb-10 `}>
+      <div className={`w-full flex z-30 lg:top-20 justify-between items-center mb-10 `}>
         <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+        <div>
+          <h2 className="text-[80px]" style={{ WebkitTextStrokeWidth: "5px", WebkitTextStrokeColor: "black", color: "white" }}>
+            WOOF!{" "}
+          </h2>
+        </div>
         <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+        <div>
+          <h2 className="text-[80px]" style={{ WebkitTextStrokeWidth: "5px", WebkitTextStrokeColor: "black", color: "white" }}>
+            WOOF!{" "}
+          </h2>
+        </div>
         <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
       </div>
       <div className="justify-center container grid lg:grid-cols-2 gap-3">

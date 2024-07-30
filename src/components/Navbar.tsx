@@ -1,7 +1,7 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/logo.svg";
-import buy from "../assets/Buy.svg";
+// import buy from "../assets/Buy.svg";
 function NavbarGlobal() {
   return (
     <>
@@ -13,7 +13,7 @@ function NavbarGlobal() {
             </Navbar.Brand>
           </div>
           <div>
-            <Nav className="flex items-center xl:gap-24 md:gap-9 md:text-xl xl:text-2xl xl:me-[7rem] 2xl:me-[9rem]">
+            <Nav className="flex items-center justify-center xl:gap-24 md:gap-9 md:text-xl xl:text-2xl xl:me-[7rem] 2xl:me-[9rem]">
               <Nav.Link className="text-white hover:scale-110 transition-transform duration-300" href="#home">
                 Twitter
               </Nav.Link>
@@ -21,7 +21,9 @@ function NavbarGlobal() {
                 Telegram
               </Nav.Link>
               <Nav.Link className="text-white hover:scale-110 transition-transform duration-300" href="#pricing">
-                <img src={buy} alt="Logo" className="d-inline-block align-center w-20 xl:w-36 h-auto" />
+                <h2 className="text-[36px] " style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  BUY NOW{" "}
+                </h2>
               </Nav.Link>
             </Nav>
           </div>

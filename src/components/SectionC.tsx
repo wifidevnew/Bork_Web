@@ -38,8 +38,8 @@ const SectionC = () => {
                 <img src={cloud} alt="Logo" className={`w-60 xl:w-80 h-auto animate-leftright`} style={{ animationDelay: "6s" }} />
               </div>
             </div>
-            <div className={`absolute justify-center mt-10`}>
-              <img src={text} alt="Logo" className="w-60 xl:w-72 sm:w-80 h-auto md:w-96" />
+            <div className={`absolute justify-center -top-24`}>
+              <img src={text} alt="Logo" className="w-60 xl:w-80 sm:w-80 h-auto md:w-96" />
             </div>
           </div>
           {/* <div className="fade-in">

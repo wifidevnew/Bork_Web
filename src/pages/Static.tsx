@@ -31,7 +31,7 @@ const Static = () => {
           <div className="border-10 mt-10 border-solid border-green-500">
             <SectionDa />
           </div>
-          <div className="pb-[55rem] pt-40">
+          <div className="pb-[57rem] pt-40">
             <SectionE />
           </div>
         </div>
