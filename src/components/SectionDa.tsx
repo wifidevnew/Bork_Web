@@ -7,9 +7,9 @@ import logo from "../assets/logo.svg";
 const SectionDa = () => {
   return (
     <div className="container relative">
-      <div className="w-full justify-center flex mt-[23rem] mb-[15rem]">
-        <div className="rounded-3xl  bg-[#d0fcfc] p-16 flex items-center gap-4">
-          <div className="rounded-3xl  bg-[#e8fcfc] p-10 items-center gap-24">
+      <div className="w-full justify-center lg:flex mt-[23rem] mb-[15rem]">
+        <div className="rounded-3xl  bg-[#d0fcfc] lg:p-16 lg:flex items-center gap-4">
+          <div className="rounded-3xl  bg-[#e8fcfc] lg:p-10 p-3 items-center gap-24">
             <div className="">
               <div className="text-[#1c3c89] grid grid-cols-2 grid-rows-3 gap-2 ">
                 <div className="flex flex-col">
@@ -73,10 +73,10 @@ const SectionDa = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0">
+      <div className="absolute top-0 hidden lg:flex">
         <img src={cld} alt="" className="w-[15rem]" />
       </div>
-      <div className="absolute right-0 top-2/3">
+      <div className="absolute right-0 top-2/3 hidden lg:flex">
         <img src={cld} alt="" className="w-[15rem]" />
       </div>
     </div>

@@ -19,7 +19,7 @@ const Static = () => {
             <SectionA />
             <div className="absolute top-72">{/* <CloudLong /> */}</div>
           </div>
-          <div className="mt-40">
+          <div className="mt-32">
             <SectionB />
           </div>
           <div className="relative">
@@ -28,7 +28,7 @@ const Static = () => {
             </div>
             <div className="absolute z-0 -top-10">{/* <CloudLong /> */}</div>
           </div>
-          <div className="border-10 mt-10 border-solid border-green-500">
+          <div className="lg:border-10 mt-10 border-solid border-green-500">
             <SectionDa />
           </div>
           <div className="pb-[57rem] lg:pt-40">

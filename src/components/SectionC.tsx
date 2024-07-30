@@ -38,8 +38,8 @@ const SectionC = () => {
                 <img src={cloud} alt="Logo" className={`w-60 xl:w-80 h-auto animate-leftright`} style={{ animationDelay: "6s" }} />
               </div>
             </div>
-            <div className={`absolute justify-center -top-24`}>
-              <img src={text} alt="Logo" className="w-60 xl:w-80 sm:w-80 h-auto md:w-96" />
+            <div className={`absolute justify-center `}>
+              <img src={text} alt="Logo" className="w-60 xl:w-[470px] sm:w-80 h-auto md:w-96" />
             </div>
           </div>
           {/* <div className="fade-in">
@@ -47,7 +47,7 @@ const SectionC = () => {
         </div> */}
         </div>
       </div>
-      <div className="flex justify-between ">
+      <div className="justify-between hidden lg:flex">
         <div className="absolute right-0 top-0">
           {/* <Parallax> */}
           <img src={cld} alt="" className="w-52" />

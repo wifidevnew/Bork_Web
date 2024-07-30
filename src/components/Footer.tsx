@@ -14,10 +14,10 @@ const FooterGlobal = () => {
       <div className="absolute flex items-center -right-0 2xl:me-[9rem]">
         <Nav>
           <Nav.Link href="#home">
-            <img src={tele} alt="Logo" className="w-10 h-auto" />
+            <img src={tele} alt="Logo" className="lg:w-10 w-5 h-auto" />
           </Nav.Link>
           <Nav.Link href="#features">
-            <img src={twit} alt="Logo" className="w-10 h-auto" />
+            <img src={twit} alt="Logo" className="lg:w-10 w-5 h-auto" />
           </Nav.Link>
         </Nav>
       </div>
