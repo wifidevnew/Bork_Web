@@ -73,11 +73,11 @@ const SectionE = () => {
               {showSmallItem && (
                 <Parallax speed={-1}>
                   {/* <img src={how} alt="Logo" className={`fade-in w-40 xl:w-64 h-auto sm:w-48 lg:w-60`} /> */}
-                  <h2 className="" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h2 className="" style={{ WebkitTextStrokeWidth: "1.2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     How To Buy
                   </h2>
                   {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
-                  <h2 className="" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h2 className="" style={{ WebkitTextStrokeWidth: "1.2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     The Goodest Boy On The BlockChain{" "}
                   </h2>
                 </Parallax>
@@ -85,7 +85,7 @@ const SectionE = () => {
             </div>
             {showLargeItem && (
               <div className="fade-in flex  justify-between absolute bottom-0 top-1 items-center z-10">
-                <Parallax speed={-5} className="flex gap-20 items-center">
+                <Parallax speed={-5} className="flex gap-64 items-center">
                   <div>
                     <img src={dog} alt="Logo" className="2xl:w-28 xl:w-36 h-auto  md:w-28  w-10 sm:w-20" />
                   </div>
@@ -132,7 +132,7 @@ const SectionE = () => {
                         src="https://www.youtube.com/embed/aaOa61tdeL4"
                         title="YouTube video"
                         allowFullScreen
-                        className="w-40 h-20 sm:w-[15rem] sm:h-[8rem] xl:w-[30rem] xl:h-[300px] md:w-[20rem] md:h-[200px] lg:w-[20rem] lg:h-[200px] rounded-3xl"
+                        className="w-40 h-20 sm:w-[15rem] sm:h-[8rem] xl:w-[40rem] xl:h-[370px] md:w-[20rem] md:h-[200px] lg:w-[20rem] lg:h-[200px] rounded-3xl"
                       ></iframe>
                     </div>
                   </div>
@@ -146,9 +146,9 @@ const SectionE = () => {
           {showSmallItem && (
             <div className="w-full absolute top-8 flex flex-row items-center justify-center   gap-2 z-30">
               <Parallax speed={0} className="flex flex-row items-center justify-center gap-10">
-                <div className="rotate-12 transform origin-center fade-in">
+                {/* <div className="rotate-12 transform origin-center fade-in">
                   <img src={bone} alt="Logo" className={` cursor-pointer w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-                </div>
+                </div> */}
                 <div className="rounded-3xl  bg-[#d0fcfc] justify-center lg:p-3">
                   <div className="rounded-3xl  bg-[#e8fcfc]  justify-center lg:p-3">
                     <div className={`-top-10 animate ${inView ? "fade-in" : ""}`}>
@@ -156,17 +156,15 @@ const SectionE = () => {
                     </div>
                   </div>
                 </div>
-                <div className="-rotate-45 transform origin-center">
+                {/* <div className="-rotate-45 transform origin-center">
                   <img src={bone} alt="Logo" className={`cursor-pointer w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-                </div>
+                </div> */}
               </Parallax>
             </div>
           )}
           {showLargeItem && (
             <div className={`w-full absolute flex justify-center z-30 top-44 `}>
-              <Parallax speed={10}>
-                <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-              </Parallax>
+              <Parallax speed={10}>{/* <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} /> */}</Parallax>
             </div>
           )}
 

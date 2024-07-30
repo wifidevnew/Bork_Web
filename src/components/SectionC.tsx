@@ -24,7 +24,7 @@ const SectionC = () => {
   }, [inView, cloudAnimationStarted]);
   return (
     <div className="container relative">
-      <div className="lg:mt-40 justify-center -mt-[63px] flex 2xl:mt-[15rem] w-full">
+      <div className="lg:mt-32 justify-center -mt-[63px] flex 2xl:mt-[7rem] w-full">
         <div ref={ref}>
           <div className="flex justify-center">
             <div className="absolute  fade-in animate-spin" style={{ animationDuration: "50s" }}>
