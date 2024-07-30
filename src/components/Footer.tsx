@@ -5,7 +5,7 @@ import twit from "../assets/TwitterVector (2).svg";
 
 const FooterGlobal = () => {
   return (
-    <div className="flex justify-between items-center py-3">
+    <div className="flex justify-between items-center py-5">
       <div className="flex justify-center w-full items-center">
         <Navbar.Brand href="#home">
           <img src={love} alt="Logo" className="xl:w-64 w-28 h-auto" />

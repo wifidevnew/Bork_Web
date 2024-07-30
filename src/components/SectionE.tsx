@@ -1,4 +1,4 @@
-import wood from "../assets/wood.svg";
+import wood from "../assets/fence.png";
 import grass from "../assets/valley.jpg";
 import bone from "../assets/Bone (2).svg";
 import how from "../assets/How to buy.svg";
@@ -59,31 +59,35 @@ const SectionE = () => {
           </div>
           <div className={`flex w-full justify-center items-center sm:bottom-[67vh] lg:bottom-[100vh]  absolute 2xl:bottom-[106vh] bottom-[15rem]`}></div>
           <div className="w-full absolute flex flex-row items-center justify-center top-80 2xl:gap-32 gap-7 z-30 -mb-40">
-            <div className="rotate-12 transform origin-center fade-in">
-              <img src={bone} alt="Logo" className={` cursor-pointer w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-            </div>
-            <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-3">
-              <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-3">
-                <div
-                  className={`2xl:left-[41rem] 2xl:bottom-[40rem] xl:left-[36rem] xl:bottom-[34rem] fade-in  sm:left-[12rem] sm:bottom-[10vh] md:left-[14rem] md:bottom-[15rem] lg:bottom-[17rem] lg:left-[16rem]  rounded-3xl left-[5rem] bottom-[7rem] animate ${
-                    inView ? "fade-in" : ""
-                  }`}
-                >
-                  <iframe
-                    src="https://www.youtube.com/embed/aaOa61tdeL4"
-                    title="YouTube video"
-                    allowFullScreen
-                    className="w-40 h-20 sm:w-[15rem] sm:h-[8rem] xl:w-[30rem] xl:h-[300px] md:w-[20rem] md:h-[200px] lg:w-[20rem] lg:h-[200px] rounded-3xl"
-                  ></iframe>
+            <Parallax speed={10} className="flex flex-row items-center justify-center gap-20">
+              <div className="rotate-12 transform origin-center fade-in">
+                <img src={bone} alt="Logo" className={` cursor-pointer w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+              </div>
+              <div className="rounded-3xl  bg-[#d0fcfc] justify-center p-3">
+                <div className="rounded-3xl  bg-[#e8fcfc]  justify-center p-3">
+                  <div
+                    className={`2xl:left-[41rem] 2xl:bottom-[40rem] xl:left-[36rem] xl:bottom-[34rem] fade-in  sm:left-[12rem] sm:bottom-[10vh] md:left-[14rem] md:bottom-[15rem] lg:bottom-[17rem] lg:left-[16rem]  rounded-3xl left-[5rem] bottom-[7rem] animate ${
+                      inView ? "fade-in" : ""
+                    }`}
+                  >
+                    <iframe
+                      src="https://www.youtube.com/embed/aaOa61tdeL4"
+                      title="YouTube video"
+                      allowFullScreen
+                      className="w-40 h-20 sm:w-[15rem] sm:h-[8rem] xl:w-[30rem] xl:h-[300px] md:w-[20rem] md:h-[200px] lg:w-[20rem] lg:h-[200px] rounded-3xl"
+                    ></iframe>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="-rotate-45 transform origin-center">
-              <img src={bone} alt="Logo" className={`cursor-pointer w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
-            </div>
+              <div className="-rotate-45 transform origin-center">
+                <img src={bone} alt="Logo" className={`cursor-pointer w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+              </div>
+            </Parallax>
           </div>
-          <div className={`w-full absolute flex justify-center z-30 top-20 `}>
-            <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+          <div className={`w-full absolute flex justify-center z-30 top-44 `}>
+            <Parallax speed={10}>
+              <img src={bone} alt="Logo" className={`w-3 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
+            </Parallax>
           </div>
 
           <div className="flex justify-center absolute z-0 -top-80">
@@ -92,7 +96,7 @@ const SectionE = () => {
             </Parallax>
           </div>
           <div className="flex justify-center absolute z-20">
-            <Parallax speed={10}>
+            <Parallax speed={10} className="-bottom-2">
               <img src={wood} alt="Logo" className="w-screen" />
             </Parallax>
           </div>

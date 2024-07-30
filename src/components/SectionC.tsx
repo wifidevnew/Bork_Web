@@ -8,7 +8,7 @@ import text from "../assets/Borkenomics heading.svg";
 import "../style/SectionC.css";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
-import { Parallax } from "react-scroll-parallax";
+// import { Parallax } from "react-scroll-parallax";
 
 const SectionC = () => {
   const { ref, inView } = useInView({
@@ -39,7 +39,7 @@ const SectionC = () => {
               </div>
             </div>
             <div className={`absolute justify-center mt-10`}>
-              <img src={text} alt="Logo" className="w-60 xl:w-96 sm:w-80 h-auto md:w-96" />
+              <img src={text} alt="Logo" className="w-60 xl:w-72 sm:w-80 h-auto md:w-96" />
             </div>
           </div>
           {/* <div className="fade-in">
