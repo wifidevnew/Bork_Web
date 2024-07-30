@@ -39,7 +39,7 @@ const SectionC = () => {
               </div>
             </div>
             <div className={`absolute justify-center `}>
-              <img src={text} alt="Logo" className="w-60 xl:w-[470px] sm:w-80 h-auto md:w-96" />
+              <img src={text} alt="Logo" className="w-60 xl:w-[500px] sm:w-80 h-auto md:w-96" />
             </div>
           </div>
           {/* <div className="fade-in">
