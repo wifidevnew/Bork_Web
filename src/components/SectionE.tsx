@@ -57,15 +57,15 @@ const SectionE = () => {
       <div ref={ref}>
         <div>
           <div className="justify-center flex">
-            <div className="absolute  lg:-top-96 -top-52 flex flex-col justify-center items-center text-center">
+            <div className="absolute  lg:-top-[440px] -top-52 flex flex-col justify-center items-center text-center">
               {showLargeItem && (
                 <Parallax speed={-10}>
                   {/* <img src={how} alt="Logo" className={`fade-in w-40 xl:w-64 h-auto sm:w-48 lg:w-60`} /> */}
-                  <h2 className="text-[45px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h2 className="text-[79px]" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     How To Buy
                   </h2>
                   {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
-                  <h2 className="text-[45px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                  <h2 className="text-[79px]" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "black", color: "#b4e804" }}>
                     The Goodest Boy On The BlockChain{" "}
                   </h2>
                 </Parallax>

@@ -80,7 +80,7 @@ const SectionA = () => {
           {showLargeItem && (
             <div className="flex justify-center z-10">
               {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
-              <h2 className="lg:text-[36px] text-center" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+              <h2 className="lg:text-[79px] text-center" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "black", color: "#b4e804" }}>
                 The Goodest Boy On The BlockChain{" "}
               </h2>
             </div>
