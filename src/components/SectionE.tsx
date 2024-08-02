@@ -1,9 +1,9 @@
-import wood from "../assets/fence.png";
+import wood from "../assets/wood.png";
 import grass from "../assets/valley.jpg";
 import bone from "../assets/Bone (2).svg";
 // import how from "../assets/How to buy.svg";
 import dog from "../assets/BorkDogsmall.svg";
-import bowl from "../assets/borkpink.png";
+import bowl from "../assets/bowlblue.png";
 // import text from "../assets/Thegoodestboy.svg";
 import "../style/SectionD.css";
 import { useInView } from "react-intersection-observer";
@@ -179,7 +179,7 @@ const SectionE = () => {
           )}
           {showLargeItem && (
             <div className="flex justify-center absolute z-20">
-              <Parallax speed={10} className="-bottom-2">
+              <Parallax speed={10} className="-mb-1">
                 <img src={wood} alt="Logo" className="w-screen" />
               </Parallax>
             </div>
@@ -191,7 +191,7 @@ const SectionE = () => {
                   <img src={grass} alt="Logo" className="w-screen" />
                 </Parallax>
               </div>
-              <div className="flex -mb-2 justify-center absolute   z-20">
+              <div className="flex justify-center absolute top-3 z-20">
                 <img src={wood} alt="Logo" className="w-screen" />
               </div>
             </div>

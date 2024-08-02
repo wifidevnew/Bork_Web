@@ -6,8 +6,8 @@ import telegram from "../assets/Telegram (2).svg";
 import twitter from "../assets/TwitterVector (2).svg";
 import buy from "../assets/Buy.svg";
 import { Nav } from "react-bootstrap";
-import dog_anima from "../assets/doganima.json";
-import Lottie from "lottie-react";
+import dog_anima from "../assets/dog.gif";
+// import Lottie from "lottie-react";
 // import cldlong from "../assets/cloudlong.png";
 import cld1 from "../assets/cld1.png";
 import { useEffect, useState } from "react";
@@ -116,8 +116,11 @@ const SectionA = () => {
             </Nav>
           </div>
         </div>
-        <div className="justify-center flex relative -top-[55px] lg:top-0">
-          <Lottie animationData={dog_anima} loop={true} className="lg:w-[700px]" />
+        <div className="justify-center items-center flex relative -top-[55px]  lg:top-0 lg:right-0">
+          <div className="lg:ms-20">
+            {/* <Lottie animationData={dog_anima} loop={true} className="lg:w-[700px]" /> */}
+            <img src={dog_anima} alt="" className="lg:w-[27rem] w-[18rem]" />
+          </div>
           <div className="absolute right-0 top-0">
             <img src={cld1} alt="" className="lg:w-[10rem] w-[5rem]" />
           </div>
