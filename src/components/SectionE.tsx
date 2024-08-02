@@ -71,16 +71,18 @@ const SectionE = () => {
                 </Parallax>
               )}
               {showSmallItem && (
-                <Parallax speed={-5}>
-                  {/* <img src={how} alt="Logo" className={`fade-in w-40 xl:w-64 h-auto sm:w-48 lg:w-60`} /> */}
-                  <h2 className="" style={{ WebkitTextStrokeWidth: "1.2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
-                    How To Buy
-                  </h2>
-                  {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
-                  <h2 className="" style={{ WebkitTextStrokeWidth: "1.2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
-                    The Goodest Boy On The BlockChain{" "}
-                  </h2>
-                </Parallax>
+                <div className="mt-12">
+                  <Parallax speed={-5}>
+                    {/* <img src={how} alt="Logo" className={`fade-in w-40 xl:w-64 h-auto sm:w-48 lg:w-60`} /> */}
+                    <h2 className="" style={{ WebkitTextStrokeWidth: "1.2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                      How To Buy
+                    </h2>
+                    {/* <img src={text} alt="Logo" className="w-[30rem] h-auto xl:w-[40rem]" /> */}
+                    <h2 className="" style={{ WebkitTextStrokeWidth: "1.2px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
+                      The Goodest Boy On The BlockChain{" "}
+                    </h2>
+                  </Parallax>
+                </div>
               )}
             </div>
             {showLargeItem && (
