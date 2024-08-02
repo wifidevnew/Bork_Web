@@ -107,7 +107,7 @@ const SectionA = () => {
               </div>
               <div className="flex">
                 <Nav.Link>
-                  <img src={buy} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-20 xl:w-40 h-auto sm:w-24 md:w-28 2xl:w-38" />
+                  <img src={buy} alt="Logo" className="hover:scale-110 transition-transform duration-300 w-28 xl:w-40 h-auto sm:w-24 md:w-28 2xl:w-38" />
                   {/* <h2 className="lg:text-[36px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "#182148", color: "#b4e804" }}>
                     BUY NOW{" "}
                   </h2> */}
