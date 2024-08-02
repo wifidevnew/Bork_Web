@@ -102,7 +102,7 @@ const SectionE = () => {
             )}
             {showSmallItem && (
               <div className="fade-in flex  justify-between relative top-40 bottom-0 items-center z-10">
-                <Parallax speed={-7} className="flex gap-20 items-center">
+                <Parallax speed={-5} className="flex gap-20 items-center">
                   <div>
                     <img src={dog} alt="Logo" className="2xl:w-28 xl:w-36 h-auto  md:w-28  w-10 sm:w-20" />
                   </div>
@@ -186,7 +186,7 @@ const SectionE = () => {
             {showSmallItem && (
               <div className="">
                 <div className="flex justify-center absolute z-0  top-20 ">
-                  <Parallax speed={-7}>
+                  <Parallax speed={-5}>
                     <img src={grass} alt="Logo" className="w-screen" />
                   </Parallax>
                 </div>

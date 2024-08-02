@@ -126,13 +126,13 @@ const SectionB: React.FC = () => {
         <div className={`w-full justify-evenly flex z-30 lg:top-20 lg:justify-between items-center mb-10 `}>
           <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
           <div>
-            <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "black", color: "white" }}>
+            <h2 className="text-[30px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "black", color: "white" }}>
               WOOF!{" "}
             </h2>
           </div>
           <img src={bone} alt="Logo" className={`w-5 xl:w-16 h-auto sm:w-7 lg:w-10 2xl:w-12 rotate-bone`} />
           <div>
-            <h2 className="lg:text-[80px]" style={{ WebkitTextStrokeWidth: "2px", WebkitTextStrokeColor: "black", color: "white" }}>
+            <h2 className="text-[30px]" style={{ WebkitTextStrokeWidth: "1.5px", WebkitTextStrokeColor: "black", color: "white" }}>
               WOOF!{" "}
             </h2>
           </div>
