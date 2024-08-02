@@ -117,7 +117,7 @@ const SectionA = () => {
           </div>
         </div>
         <div className="justify-center flex relative -top-[55px] lg:top-0">
-          <Lottie animationData={dog_anima} loop={true} />
+          <Lottie animationData={dog_anima} loop={true} className="lg:w-[700px]" />
           <div className="absolute right-0 top-0">
             <img src={cld1} alt="" className="lg:w-[10rem] w-[5rem]" />
           </div>
