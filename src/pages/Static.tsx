@@ -31,13 +31,15 @@ const Static = () => {
           <div className="lg:border-10 mt-10 border-solid border-green-500">
             <SectionDa />
           </div>
-          <div className="lg:pb-[57rem] pb-40 lg:pt-40">
-            <SectionE />
+          <div className="relative -mt-48">
+            <div className="z-0">
+              <SectionE />
+            </div>
+            <div className="absolute lg:mb-0 w-full bg-transparent backdrop-blur-xl bg-opacity-20 z-50 bottom-0">
+              <FooterGlobal />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="bg-transparent backdrop-blur-xl bg-opacity-20 z-50 ">
-        <FooterGlobal />
       </div>
     </div>
   );

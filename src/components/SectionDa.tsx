@@ -134,7 +134,7 @@ const SectionDa = () => {
           </div> */}
           <div className="flex flex-col justify-center items-center">
             <div className=" items-center justify-center  2xl:mb-1 z-10">
-              <img src={gabe} alt="Logo" className="w-[360px] 2xl:w-[35rem] h-auto" />
+              <img src={gabe} alt="Logo" className="w-[280px] 2xl:w-[35rem] h-auto" />
             </div>
             <div className=" items-center justify-center pb-3  2xl:mb-1 z-10">
               <img src={logo} alt="Logo" className="w-[240px] 2xl:w-[400px] h-auto" />
